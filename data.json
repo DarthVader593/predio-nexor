@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "segunda, 2/11 às 15h41",
+ "ATUALIZADO": "segunda, 2/11 às 16h05",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -225,6 +225,7 @@
   }
  ],
  "DECISOES": [
+  "Lorenzo: o áudio das 16h não saiu; mandar mesmo assim ou deixar para lá?",
   "Gabriel: seguir só com QR Code (o não oficial pode banir o número) ou manter o 360dialog em paralelo até a Meta aprovar?",
   "Postiz: a cobrança de US$29 foi recusada em 1/11; atualizar o cartão antes do fim do teste em 8/11",
   "Financeiro: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
@@ -247,6 +248,7 @@
   "Trocar o nome do perfil no Instagram"
  ],
  "DECISOES_BOT": [
+  "lor",
   "dev",
   "geral",
   "fin",
@@ -269,6 +271,8 @@
   "mkt"
  ],
  "TICKER": [
+  "NEXA ▸ NEXOR Core agora sabe tudo do negócio (publicado ~16h)",
+  "NEXA ▸ calendário de marketing ao vivo no NEXOR Core em preparo",
   "LOR ▸ resposta das 15h10 enviada",
   "NEXA ▸ Secretária agora se chama Nexa",
   "MKT ▸ post do prédio aprovado, publicando no feed",
@@ -877,5 +881,94 @@
    }
   ],
   "fonte": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/b55e9d2d-3659-486e-a5dd-91040d7c2e1f"
+ },
+ "MKT": {
+  "instagram": "@nexorbrain",
+  "site": "nexorbrain.com",
+  "atualizado_em": "02/11 16:04",
+  "fonte": "calendário 10 dias (Postiz sem posts)",
+  "proximas": [
+   {
+    "data": "02/11 19h",
+    "formato": "Reel",
+    "tema": "Apresentação: o cérebro central da Nexor",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "03/11 12h",
+    "formato": "Estático",
+    "tema": "Muitos agentes, um cérebro",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "03/11 19h",
+    "formato": "Reel",
+    "tema": "Vendas 24h no WhatsApp",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "04/11 12h30",
+    "formato": "Reel",
+    "tema": "O caminho do cliente pelo cérebro",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "04/11 19h",
+    "formato": "Estático",
+    "tema": "O peso do gestor",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "05/11 12h",
+    "formato": "Estático",
+    "tema": "Objeção: 'IA não entende meu cliente'",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "05/11 19h",
+    "formato": "Reel",
+    "tema": "Nexor Pay: cobrar dentro da conversa",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "06/11 12h",
+    "formato": "Estático",
+    "tema": "Preço: a regra em um card",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "06/11 18h30",
+    "formato": "Reel",
+    "tema": "Preço transparente",
+    "status": "planejado",
+    "fonte": "calendário"
+   },
+   {
+    "data": "07/11 10h",
+    "formato": "Estático",
+    "tema": "Secretária de presente",
+    "status": "planejado",
+    "fonte": "calendário"
+   }
+  ],
+  "publicadas": [],
+  "vencidas_sem_confirmacao": [
+   {
+    "data": "02/11 12h",
+    "formato": "Estático",
+    "tema": "Sistema único: agentes + CRM + ERP + Nexor Pay",
+    "status": "planejado",
+    "fonte": "calendário"
+   }
+  ],
+  "obs": "Status 'planejado' = só no calendário, não agendado no Postiz. Confirmar publicação com a Nexa."
  }
 }

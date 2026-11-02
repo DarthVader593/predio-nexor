@@ -15,20 +15,4 @@ jobs:
           URL: https://api2.cursor.sh/automations/webhook/f200061d-d55e-5836-b1e7-f83a5b9e463f
           KEY: ${{ secrets.WEBHOOK_KEY }}
         run: |
-          curl -sS -f -X POST "$URL" -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" -d "{\"origem\":\"app-github\"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          curl -sS -f -X POST "$URL" -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" -d '{"origem":"app-github","acao":"atualizar"}'

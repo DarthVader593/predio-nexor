@@ -3,6 +3,20 @@
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
+   "id": "adev",
+   "ag": "267e2209-745b-4d26-9cc1-1d737c24d12b",
+   "nome": "Assessor Dev",
+   "papel": "Dev pessoal do Darth · analisa e reescreve códigos, avalia sistemas e fluxos · reporta à Secretária",
+   "status": "ativo",
+   "criado": "2/11",
+   "gerente": "sec",
+   "secao": "CEO",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
+  },
+  {
    "id": "mkt",
    "ag": "56ba7659-0115-4d44-be9f-3feee982ae51",
    "nome": "Nexor Marketing",
@@ -87,6 +101,30 @@
    ]
   },
   {
+   "id": "cons",
+   "ag": "08abf635-4a13-4c8f-8b2f-8222e34f3753",
+   "nome": "Consultor Estratégico",
+   "papel": "Consultor estratégico do CEO · ensina sobre o mercado, mantém o Darth atualizado, dá dicas aos outros bots e atua na melhoria da empresa",
+   "status": "ativo",
+   "criado": "2/11",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
+  },
+  {
+   "id": "fin",
+   "ag": "912d02c8-3ded-494b-8789-1dae217a5850",
+   "nome": "Financeiro",
+   "papel": "Finanças, contas e caixa da Nexor",
+   "status": "ativo",
+   "criado": "2/11",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
+  },
+  {
    "id": "cfg",
    "ag": "914d0f9e-f281-443d-b265-e3747a3b4ca4",
    "nome": "Nexor Configurador de Lojas",
@@ -101,7 +139,50 @@
     "Crono Jóias: login no 360dialog e no Facebook da loja",
     "Crono Jóias depois: ativar pagamentos, contato da loja, escalonamento e revisar itens do catálogo desatualizados",
     "Onboarding das outras lojas junto com o Darth"
-   ]
+   ],
+   "gerente": "sec"
+  },
+  {
+   "id": "jur",
+   "ag": "7fd5324c-c230-49cd-901e-b31ef5d9f66e",
+   "nome": "Nexor Jurídico",
+   "papel": "Contratos, termos de uso, LGPD e registro de marca · reporta à Secretária",
+   "status": "ativo",
+   "criado": "2/11",
+   "gerente": "sec",
+   "secao": "Nexor AI",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
+  },
+  {
+   "id": "sup",
+   "ag": "40c90ce8-f228-4c48-a76b-3d37db2f4275",
+   "nome": "Nexor Suporte aos Clientes",
+   "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Secretária",
+   "status": "ativo",
+   "criado": "2/11",
+   "gerente": "sec",
+   "secao": "Nexor AI",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
+  },
+  {
+   "id": "com",
+   "ag": "7ede3518-d940-4bf9-9068-60ad933ad0c5",
+   "nome": "Nexor Comercial",
+   "papel": "Prospecção, funil de vendas e propostas · reporta à Secretária",
+   "status": "ativo",
+   "criado": "2/11",
+   "gerente": "sec",
+   "secao": "Nexor AI",
+   "entregas": [
+    "Bot criado pelo Darth em 2/11"
+   ],
+   "pendente": []
   }
  ],
  "DECISOES": [
@@ -360,6 +441,15 @@
    "f": []
   },
   {
+   "n": "23",
+   "setor": "Tecnologia do CEO · Assessor Dev",
+   "c": "#38bdf8",
+   "bots": [
+    "adev"
+   ],
+   "f": []
+  },
+  {
    "n": "22",
    "setor": "Gestão · Secretária",
    "c": "#3b82f6",
@@ -370,12 +460,12 @@
   },
   {
    "n": "21",
-   "setor": "Estratégia & Novos Negócios",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Estrategista"
-   ]
+   "setor": "Estratégia · Consultor do CEO",
+   "c": "#f5c542",
+   "bots": [
+    "cons"
+   ],
+   "f": []
   },
   {
    "n": "20",
@@ -397,13 +487,12 @@
   },
   {
    "n": "18",
-   "setor": "Vendas · SDR",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "SDR / Prospecção",
-    "Closer"
-   ]
+   "setor": "Comercial · Vendas",
+   "c": "#fb923c",
+   "bots": [
+    "com"
+   ],
+   "f": []
   },
   {
    "n": "17",
@@ -446,12 +535,12 @@
   },
   {
    "n": "13",
-   "setor": "Suporte",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Suporte ao cliente"
-   ]
+   "setor": "Suporte aos Clientes",
+   "c": "#2dd4bf",
+   "bots": [
+    "sup"
+   ],
+   "f": []
   },
   {
    "n": "12",
@@ -519,11 +608,11 @@
   {
    "n": "05",
    "setor": "Financeiro",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Financeiro"
-   ]
+   "c": "#34d399",
+   "bots": [
+    "fin"
+   ],
+   "f": []
   },
   {
    "n": "04",
@@ -537,11 +626,11 @@
   {
    "n": "03",
    "setor": "Jurídico & Contratos",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Jurídico / Contratos"
-   ]
+   "c": "#818cf8",
+   "bots": [
+    "jur"
+   ],
+   "f": []
   },
   {
    "n": "02",
@@ -659,5 +748,41 @@
     "Acompanhamento da primeira semana"
    ]
   }
- ]
+ ],
+ "FIN": {
+  "titulo": "Painel Financeiro – Nexor",
+  "resumo": "Custos da Nexor. Nada aqui está lançado no controle: todos os itens aguardam a confirmação do Darth.",
+  "aguardando": [
+   {
+    "item": "Grok Ultra (Apple)",
+    "valor": "US$260/mês",
+    "obs": "Valor informado pela Secretária"
+   },
+   {
+    "item": "Postiz",
+    "valor": "a confirmar",
+    "obs": "Teste até 8/11"
+   },
+   {
+    "item": "Postiz, pendentes no Cash App",
+    "valor": "US$29,87 e US$1,03",
+    "obs": "Confirmar se ambos são Postiz"
+   },
+   {
+    "item": "Adspirer",
+    "valor": "a confirmar",
+    "obs": "Sem valor informado"
+   }
+  ],
+  "lancados": [],
+  "total_lancado": "Lançados no controle até agora: nenhum.",
+  "vencimentos": [
+   {
+    "item": "Postiz",
+    "data": "8/11",
+    "obs": "Fim do teste"
+   }
+  ],
+  "fonte": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/b55e9d2d-3659-486e-a5dd-91040d7c2e1f"
+ }
 }

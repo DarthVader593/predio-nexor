@@ -1,879 +1,880 @@
 {
- "ATUALIZADO": "segunda, 2/11 às 14h12",
- "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
- "BOTS": [
-  {
-   "id": "adev",
-   "ag": "267e2209-745b-4d26-9cc1-1d737c24d12b",
-   "nome": "Assessor Dev",
-   "papel": "Dev pessoal do Darth · analisa e reescreve códigos, avalia sistemas e fluxos · reporta à Nexa",
-   "status": "aguardando",
-   "criado": "2/11",
-   "gerente": "sec",
-   "secao": "CEO",
-   "entregas": [
-    "13h11: apresentou-se e está pronto para código, arquitetura, agentes, automações e o app Prédio Nexor",
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": [
-    "Darth dizer por onde começar: link de repositório, trecho de código, fluxo com problema ou entrega do Gabriel para revisar"
-   ]
-  },
-  {
-   "id": "mkt",
-   "ag": "56ba7659-0115-4d44-be9f-3feee982ae51",
-   "nome": "Nexor Marketing",
-   "papel": "Marketing, vendas e tráfego",
-   "status": "trabalhando",
-   "entregas": [
-    "13h40–14h05: criativos do cérebro com o prédio (feed + 3 stories) em 3 versões; a última é um arranha-céu de vidro realista com os agentes nos andares",
-    "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)",
-    "2/11 9h15: Darth aprovou o calendário do Instagram de 2 a 11/11 (1 estático no feed + 1 Reel por dia, 20 posts)",
-    "Estático de amanhã ajustado a pedido do Darth: “Um time inteiro de IA, um só cérebro” (sem falar em 4 agentes)",
-    "9h41: Darth liberou postar os dias 1 e 2 sem perguntar de novo",
-    "12h06: estático do Dia 1 “Um cérebro. Tudo conectado.” no ar no @nexorbrain (4:5, prévia e legenda conferidas)",
-    "Noite de 1/11: 4 Reels publicados no @nexorbrain com legenda e prévia conferida (cronômetro, “duas da manhã”, “Pare de rolar” e o institucional v2 de 50s com o cérebro central)",
-    "Reel do cronômetro saiu cortado no topo, foi excluído e republicado inteiro; conferir a prévia antes de postar virou regra",
-    "6 stories de interação feitos; Darth postou e o bot colocou todos nos destaques (Planos, Agentes, Como funciona e o novo destaque Dúvidas)"
-   ],
-   "pendente": [
-    "Publicar agora o post do feed do prédio (“Cada andar da sua empresa, movido por um cérebro.”) e mandar o link ao Darth",
-    "Hoje ~19h: Reel do Dia 1 (institucional v1, nunca publicado)",
-    "Amanhã 3/11: estático ~12h e Reel ~19h do Dia 2",
-    "Amanhã ~9h: mandar ao Darth as peças dos dias 3 e 4 para aprovar",
-    "Fixar o Reel institucional no topo do perfil pelo app do celular (pela web não dá)",
-    "Darth escolher quais estáticos e vídeos vão para anúncio",
-    "Ligar o Instagram @nexorbrain no Postiz (hoje sem nenhuma rede da Nexor)",
-    "Ajustes da landing (bloqueiam os anúncios)",
-    "Trocar o nome do perfil para “Nexor, IA que vende no WhatsApp”"
-   ],
-   "link": {
-    "t": "Plano de lançamento",
-    "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/2577808a-8c5c-4685-9f34-ad3aaf6e5687"
-   }
-  },
-  {
-   "id": "dev",
-   "ag": "a6a97fa1-7e35-4c83-839a-2955db2052e4",
-   "nome": "Nexor Devs – Gabriel",
-   "papel": "Acompanhamento do dev Gabriel",
-   "status": "resposta",
-   "entregas": [
-    "14h07: Gabriel disse (12h07) que está fazendo a conexão por QR Code e trocando o código; parou de olhar o chamado do 360dialog",
-    "14h09: mensagem de texto ao Gabriel pedindo que avise quando o QR Code estiver pronto (Darth será avisado por texto)",
-    "~12h de 2/11: áudio educado ao Gabriel cobrando QR Code, IA da Nexor e 360dialog (entregue no WhatsApp)",
-    "Gabriel sem sinal desde a noite de 1/11",
-    "Por volta das 17h o Gabriel mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider); depois o cliente conecta o número por QR code (coexistência)",
-    "16h10: nova cobrança enviada, depois de ele responder a primeira só com brincadeiras",
-    "Cobrança enviada ao Gabriel às 10h38, por áudio: ajustes da landing, base do projeto e 360dialog",
-    "Gabriel conversou cedo com o Rodrigo só sobre as taxas do Asaas/split (1,89% a 3,99%)"
-   ],
-   "pendente": [
-    "Darth decidir: só QR Code (o não oficial pode banir o número; o oficial depende da Meta aprovar o Tech Provider) ou manter o 360dialog em paralelo. Sugestão do bot: não oficial só para poucos pilotos + 360 em paralelo",
-    "Gabriel ainda não plugou a IA da Nexor (prometida para a manhã de 2/11)",
-    "Gabriel ainda não comentou o PDF da landing nem a stack (base do projeto)"
-   ]
-  },
-  {
-   "id": "lor",
-   "ag": "70f408fa-91fc-4b80-a26b-0211bf9a1604",
-   "nome": "Lorenzo – Acompanhamento",
-   "papel": "Rotina e tarefas do Lorenzo (17 anos)",
-   "status": "trabalhando",
-   "entregas": [
-    "13h30: áudio da Raquel e link nexorbrain.com enviados ao Lorenzo no WhatsApp",
-    "10h37 de 2/11: Rodrigo liberou as mensagens diárias do Lorenzo sem perguntar antes",
-    "Áudios da Raquel de hoje prontos (13h30 com nexorbrain.com, 16h e 17h30)",
-    "As 8 aulas da Universidade Nexor liberadas às 17h58 de 1/11",
-    "Lorenzo fez a aula 1 à noite e acertou tudo",
-    "19h01: painel ajustado para abrir as 2 provas quando ele concluir as 8 aulas",
-    "Mensagens de segunda revisadas no tom educado (13h30, 16h e 17h30)"
-   ],
-   "pendente": [
-    "Concluir as aulas restantes",
-    "Provas abrem sozinhas ao concluir as 8 aulas; pedir print ao terminar (o progresso fica só no celular dele)",
-    "Hoje, seg 2/11: áudios às 16h e 17h30 (13h30 já enviado) (Nexa envia); resposta das 17h30 vai ao bot até 18h",
-    "Painel do Lorenzo: 1ª atualização automática hoje às 18h"
-   ],
-   "link": {
-    "t": "Painel do Lorenzo",
-    "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/10e173d5-a9b1-4564-9c63-2153e63ff76f"
-   }
-  },
-  {
-   "id": "vs",
-   "ag": "122fd54e-b7f6-47f1-b110-0b96931c9f62",
-   "nome": "VS Jóias",
-   "papel": "Cliente Valéria de Sordi",
-   "status": "aguardando",
-   "entregas": [
-    "Meta conectada no Adspirer: conta Nexor Ads (1652199342970726, BRL, São Paulo) ativa para os anúncios da VS, como o Darth decidiu às 19h14 de 1/11",
-    "Postiz corrigido com a nova chave: o bot já enxerga o Instagram vs_jewelry_ ativo",
-    "A conta VS Jóias Ads (2255692508334441) não apareceu no Adspirer, nem pelo Facebook da Valéria nem pelo perfil do Rodrigo",
-    "Bot assumiu a frente de redes sociais e anúncios da VS"
-   ],
-   "pendente": [
-    "Preparar os primeiros posts estáticos da VS para o Darth aprovar",
-    "Criativos, orçamento e forma de pagamento só com o ok do Darth (nada publicado, nada gasto)",
-    "Dados reais da loja: WhatsApp, peças e preços, pagamento, entrega, troca, garantia e tom da Valéria",
-    "Anúncios saem pela Nexor Ads; Instagram e demais ativos seguem na VS"
-   ]
-  },
-  {
-   "id": "cons",
-   "ag": "08abf635-4a13-4c8f-8b2f-8222e34f3753",
-   "nome": "Consultor Estratégico",
-   "papel": "Consultor estratégico do CEO · ensina sobre o mercado, mantém o Darth atualizado, dá dicas aos outros bots e atua na melhoria da empresa",
-   "status": "aguardando",
-   "criado": "2/11",
-   "entregas": [
-    "12h48: começou o primeiro panorama de mercado da Nexor (IA conversacional e vendas pelo WhatsApp, com fontes)",
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": [
-    "Darth responder: qual é hoje o maior desafio da Nexor (vender mais, reter clientes, produto ou operação)?"
-   ]
-  },
-  {
-   "id": "fin",
-   "ag": "912d02c8-3ded-494b-8789-1dae217a5850",
-   "nome": "Financeiro",
-   "papel": "Finanças, contas e caixa da Nexor",
-   "status": "aguardando",
-   "criado": "2/11",
-   "entregas": [
-    "12h52: Painel Financeiro – Nexor montado (data, fornecedor, descrição, valor, moeda, recorrência, vencimento, fonte, status)",
-    "Total levantado: US$319,90, tudo aguardando confirmação (US$29,00 achados em e-mail + US$290,90 informados pela Nexa)",
-    "Achou no Gmail: cobrança de US$29 do Postiz RECUSADA em 1/11 (Stripe)",
-    "Escopo ajustado pelo Darth: só custos da Nexor; ElevenLabs classificada como custo da Nexor",
-    "Nada lançado no controle sem o ok do Darth",
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": [
-    "Darth confirmar: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
-    "Darth confirmar: Grok Ultra a US$260/mês e o dia da renovação",
-    "Valores e datas de cobrança da ElevenLabs e do Adspirer",
-    "HeyGen, Midjourney e pdfFiller são custos da Nexor?",
-    "Faturas no iCloud: encaminhar ou passar os valores (não há faturas de GitHub, domínio, hospedagem, Cursor, OpenAI ou Anthropic no Gmail)"
-   ]
-  },
-  {
-   "id": "cfg",
-   "ag": "914d0f9e-f281-443d-b265-e3747a3b4ca4",
-   "nome": "Nexor Configurador de Lojas",
-   "papel": "Onboarding e configuração dos agentes de cada loja · reporta à Nexa",
-   "status": "aguardando",
-   "entregas": [
-    "Lembrete das 10h06 enviado: Crono segue parada no login do 360dialog e do Facebook da loja",
-    "Site de onboarding das lojas pronto",
-    "Crono Jóias em configuração: parou na conexão do WhatsApp (+55 62 9419-2219)"
-   ],
-   "pendente": [
-    "Crono Jóias: login no 360dialog e no Facebook da loja",
-    "Crono Jóias depois: ativar pagamentos, contato da loja, escalonamento e revisar itens do catálogo desatualizados",
-    "Onboarding das outras lojas junto com o Darth"
-   ],
-   "gerente": "sec"
-  },
-  {
-   "id": "jur",
-   "ag": "7fd5324c-c230-49cd-901e-b31ef5d9f66e",
-   "nome": "Nexor Jurídico",
-   "papel": "Contratos, termos de uso, LGPD e registro de marca · reporta à Nexa",
-   "status": "ativo",
-   "criado": "2/11",
-   "gerente": "sec",
-   "secao": "Nexor AI",
-   "entregas": [
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": []
-  },
-  {
-   "id": "sup",
-   "ag": "40c90ce8-f228-4c48-a76b-3d37db2f4275",
-   "nome": "Nexor Suporte aos Clientes",
-   "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Nexa",
-   "status": "aguardando",
-   "criado": "2/11",
-   "gerente": "sec",
-   "secao": "Nexor AI",
-   "entregas": [
-    "12h52: pronto para o suporte das lojas, começando pela VS Jóias",
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": [
-    "Informar o canal onde chegam hoje os chamados da VS Jóias (WhatsApp, e-mail ou grupo com o Lorenzo)"
-   ]
-  },
-  {
-   "id": "com",
-   "ag": "7ede3518-d940-4bf9-9068-60ad933ad0c5",
-   "nome": "Nexor Comercial",
-   "papel": "Prospecção, funil de vendas e propostas · reporta à Nexa",
-   "status": "ativo",
-   "criado": "2/11",
-   "gerente": "sec",
-   "secao": "Nexor AI",
-   "entregas": [
-    "12h52: começou a montar a primeira lista de lojas para prospecção, no funil lead → contato → demo → proposta → fechamento",
-    "Bot criado pelo Darth em 2/11"
-   ],
-   "pendente": [
-    "Primeira lista de prospecção (nada sai para ninguém sem o ok do Darth)"
-   ]
-  }
- ],
- "DECISOES": [
-  "Gabriel: seguir só com QR Code (o não oficial pode banir o número) ou manter o 360dialog em paralelo até a Meta aprovar?",
-  "Postiz: a cobrança de US$29 foi recusada em 1/11; atualizar o cartão antes do fim do teste em 8/11",
-  "Financeiro: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
-  "Financeiro: confirmar Grok Ultra US$260/mês e o dia da renovação",
-  "Financeiro: valor e data de cobrança da ElevenLabs e do Adspirer",
-  "Financeiro: HeyGen, Midjourney e pdfFiller são da Nexor?",
-  "Apagar do chat da Nexa a senha do iCloud e a chave do webhook, e trocar a senha do iCloud",
-  "Consultor: qual é hoje o maior desafio da Nexor?",
-  "Assessor Dev: por onde começar (repositório, código ou fluxo)?",
-  "Suporte: por qual canal chegam os chamados da VS Jóias?",
-  "Fixar o Reel institucional no topo do @nexorbrain pelo celular",
-  "Apagar do chat do bot VS Jóias a senha do Facebook da Valéria e a chave do Postiz",
-  "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
-  "VS Jóias: aprovar criativos, orçamento e forma de pagamento na Nexor Ads",
-  "Enviar os dados reais da VS Jóias",
-  "Crono Jóias: fazer o login no 360dialog e no Facebook da loja",
-  "Aprovar os ajustes da landing page",
-  "Confirmar quais são os 4 agentes do plano",
-  "Alinhar preço com o CTO (arquivo diz R$ 1.999; correto R$ 1.499)",
-  "Trocar o nome do perfil no Instagram"
- ],
- "DECISOES_BOT": [
-  "dev",
-  "geral",
-  "fin",
-  "fin",
-  "fin",
-  "fin",
-  "geral",
-  "cons",
-  "adev",
-  "sup",
-  "mkt",
-  "vs",
-  "mkt",
-  "vs",
-  "vs",
-  "cfg",
-  "dev",
-  "geral",
-  "geral",
-  "mkt"
- ],
- "TICKER": [
-  "MKT ▸ post do prédio aprovado, publicando no feed",
-  "DEV ▸ Gabriel trocando para QR Code; Darth decide o caminho",
-  "LOR ▸ áudio das 13h30 enviado",
-  "MKT ▸ calendário 2–11/11 aprovado (20 posts)",
-  "MKT ▸ estático do Dia 1 no ar às 12h06",
-  "MKT ▸ Reel do Dia 1 às 19h",
-  "FIN ▸ US$319,90 aguardando confirmação",
-  "FIN ▸ Postiz: cobrança de US$29 recusada",
-  "LOR ▸ mensagens diárias liberadas pelo Rodrigo",
-  "CONS ▸ panorama de mercado em andamento",
-  "COM ▸ 1ª lista de prospecção em montagem",
-  "CFG ▸ Crono parada no WhatsApp",
-  "SEC ▸ botão atualizar ligado via GitHub",
-  "SEC ▸ Prédio às 9h, 14h e 19h",
-  "LOR ▸ áudios 16h e 17h30"
- ],
- "ARQ": [
-  {
-   "t": "Relatório da landing page para o dev",
-   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/766737bf-8fed-41f9-b9ac-36a7bccadc47"
-  },
-  {
-   "t": "Plano de lançamento: marketing, tráfego e vendas",
-   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/2577808a-8c5c-4685-9f34-ad3aaf6e5687"
-  },
-  {
-   "t": "Painel do Lorenzo – Nexor",
-   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/10e173d5-a9b1-4564-9c63-2153e63ff76f"
-  },
-  {
-   "t": "Universidade Nexor do Lorenzo",
-   "u": "https://minha-jornada-na-nexor-4hde.pages.grok.bot/"
-  },
-  {
-   "t": "Site de onboarding das lojas",
-   "u": "https://bem-vindo-a-nexor-onboarding-ruhb.pages.grok.bot/"
-  },
-  {
-   "t": "Site nexorbrain.com",
-   "u": "https://nexorbrain.com"
-  },
-  {
-   "t": "Instagram @nexorbrain",
-   "u": "https://instagram.com/nexorbrain"
-  }
- ],
- "RESUMO_ID": "2026-11-01",
- "LORENZO_LAST_UPDATE": "2026-10-31T22:43",
- "RESUMO": {
-  "data": "Domingo, 1 de novembro de 2026",
-  "bots": [
-   {
-    "b": "Nexa",
-    "t": "Cobrou o Gabriel às 10h38 (áudio Raquel); corrigiu os avisos falsos do Lorenzo no Cérebro; pesquisou ligações de WhatsApp com IA (recomendação: API oficial da Meta + ElevenLabs); mandou ao Lorenzo o áudio e o link às 18h01 e acompanha ele até 20h30."
-   },
-   {
-    "b": "Nexor Marketing",
-    "t": "Vídeos de anúncio v2 a v9 (stories e feed) prontos; som do v3 feed corrigido; nada publicado."
-   },
-   {
-    "b": "Nexor Devs – Gabriel",
-    "t": "Gabriel respondeu a cobrança só com brincadeiras; às 16h10 o bot mandou nova cobrança. Por volta das 17h ele mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider), depois o cliente conecta o número por QR code (coexistência)."
-   },
-   {
-    "b": "Lorenzo – Acompanhamento",
-    "t": "Liberou as 8 aulas às 17h58; Lorenzo fez a aula 1 à noite e acertou tudo; às 19h01 o painel passou a liberar as 2 provas quando ele concluir as 8 aulas."
-   },
-   {
-    "b": "VS Jóias",
-    "t": "Tentou ligar a conta de anúncios 2255692508334441 no Adspirer pelo Facebook da Valéria (parou na verificação do Google) e pelo perfil do Rodrigo (a conta da VS não apareceu)."
-   },
-   {
-    "b": "Nexor Configurador de Lojas",
-    "t": "Lembrete das 10h06 enviado: a Crono segue parada no login do 360dialog e do Facebook da loja."
-   }
+  "ATUALIZADO": "segunda, 2/11 às 14h57",
+  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
+  "BOTS": [
+    {
+      "id": "adev",
+      "ag": "267e2209-745b-4d26-9cc1-1d737c24d12b",
+      "nome": "Assessor Dev",
+      "papel": "Dev pessoal do Darth · analisa e reescreve códigos, avalia sistemas e fluxos · reporta à Nexa",
+      "status": "aguardando",
+      "criado": "2/11",
+      "gerente": "sec",
+      "secao": "CEO",
+      "entregas": [
+        "13h11: apresentou-se e está pronto para código, arquitetura, agentes, automações e o app Prédio Nexor",
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": [
+        "Darth dizer por onde começar: link de repositório, trecho de código, fluxo com problema ou entrega do Gabriel para revisar"
+      ]
+    },
+    {
+      "id": "mkt",
+      "ag": "56ba7659-0115-4d44-be9f-3feee982ae51",
+      "nome": "Nexor Marketing",
+      "papel": "Marketing, vendas e tráfego",
+      "status": "trabalhando",
+      "entregas": [
+        "13h40–14h05: criativos do cérebro com o prédio (feed + 3 stories) em 3 versões; a última é um arranha-céu de vidro realista com os agentes nos andares",
+        "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)",
+        "2/11 9h15: Darth aprovou o calendário do Instagram de 2 a 11/11 (1 estático no feed + 1 Reel por dia, 20 posts)",
+        "Estático de amanhã ajustado a pedido do Darth: “Um time inteiro de IA, um só cérebro” (sem falar em 4 agentes)",
+        "9h41: Darth liberou postar os dias 1 e 2 sem perguntar de novo",
+        "12h06: estático do Dia 1 “Um cérebro. Tudo conectado.” no ar no @nexorbrain (4:5, prévia e legenda conferidas)",
+        "Noite de 1/11: 4 Reels publicados no @nexorbrain com legenda e prévia conferida (cronômetro, “duas da manhã”, “Pare de rolar” e o institucional v2 de 50s com o cérebro central)",
+        "Reel do cronômetro saiu cortado no topo, foi excluído e republicado inteiro; conferir a prévia antes de postar virou regra",
+        "6 stories de interação feitos; Darth postou e o bot colocou todos nos destaques (Planos, Agentes, Como funciona e o novo destaque Dúvidas)"
+      ],
+      "pendente": [
+        "Publicar agora o post do feed do prédio (“Cada andar da sua empresa, movido por um cérebro.”) e mandar o link ao Darth",
+        "Hoje ~19h: Reel do Dia 1 (institucional v1, nunca publicado)",
+        "Amanhã 3/11: estático ~12h e Reel ~19h do Dia 2",
+        "Amanhã ~9h: mandar ao Darth as peças dos dias 3 e 4 para aprovar",
+        "Fixar o Reel institucional no topo do perfil pelo app do celular (pela web não dá)",
+        "Darth escolher quais estáticos e vídeos vão para anúncio",
+        "Ligar o Instagram @nexorbrain no Postiz (hoje sem nenhuma rede da Nexor)",
+        "Ajustes da landing (bloqueiam os anúncios)",
+        "Trocar o nome do perfil para “Nexor, IA que vende no WhatsApp”"
+      ],
+      "link": {
+        "t": "Plano de lançamento",
+        "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/2577808a-8c5c-4685-9f34-ad3aaf6e5687"
+      }
+    },
+    {
+      "id": "dev",
+      "ag": "a6a97fa1-7e35-4c83-839a-2955db2052e4",
+      "nome": "Nexor Devs – Gabriel",
+      "papel": "Acompanhamento do dev Gabriel",
+      "status": "resposta",
+      "entregas": [
+        "14h07: Gabriel disse (12h07) que está fazendo a conexão por QR Code e trocando o código; parou de olhar o chamado do 360dialog",
+        "14h09: mensagem de texto ao Gabriel pedindo que avise quando o QR Code estiver pronto (Darth será avisado por texto)",
+        "~12h de 2/11: áudio educado ao Gabriel cobrando QR Code, IA da Nexor e 360dialog (entregue no WhatsApp)",
+        "Gabriel sem sinal desde a noite de 1/11",
+        "Por volta das 17h o Gabriel mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider); depois o cliente conecta o número por QR code (coexistência)",
+        "16h10: nova cobrança enviada, depois de ele responder a primeira só com brincadeiras",
+        "Cobrança enviada ao Gabriel às 10h38, por áudio: ajustes da landing, base do projeto e 360dialog",
+        "Gabriel conversou cedo com o Rodrigo só sobre as taxas do Asaas/split (1,89% a 3,99%)"
+      ],
+      "pendente": [
+        "Darth decidir: só QR Code (o não oficial pode banir o número; o oficial depende da Meta aprovar o Tech Provider) ou manter o 360dialog em paralelo. Sugestão do bot: não oficial só para poucos pilotos + 360 em paralelo",
+        "Gabriel ainda não plugou a IA da Nexor (prometida para a manhã de 2/11)",
+        "Gabriel ainda não comentou o PDF da landing nem a stack (base do projeto)"
+      ]
+    },
+    {
+      "id": "lor",
+      "ag": "70f408fa-91fc-4b80-a26b-0211bf9a1604",
+      "nome": "Lorenzo – Acompanhamento",
+      "papel": "Rotina e tarefas do Lorenzo (17 anos)",
+      "status": "trabalhando",
+      "entregas": [
+        "13h30: áudio da Raquel e link nexorbrain.com enviados ao Lorenzo no WhatsApp",
+        "10h37 de 2/11: Rodrigo liberou as mensagens diárias do Lorenzo sem perguntar antes",
+        "Áudios da Raquel de hoje prontos (13h30 com nexorbrain.com, 16h e 17h30)",
+        "As 8 aulas da Universidade Nexor liberadas às 17h58 de 1/11",
+        "Lorenzo fez a aula 1 à noite e acertou tudo",
+        "19h01: painel ajustado para abrir as 2 provas quando ele concluir as 8 aulas",
+        "Mensagens de segunda revisadas no tom educado (13h30, 16h e 17h30)"
+      ],
+      "pendente": [
+        "Concluir as aulas restantes",
+        "Provas abrem sozinhas ao concluir as 8 aulas; pedir print ao terminar (o progresso fica só no celular dele)",
+        "Hoje, seg 2/11: áudios às 16h e 17h30 (13h30 já enviado) (Nexa envia); resposta das 17h30 vai ao bot até 18h",
+        "Painel do Lorenzo: 1ª atualização automática hoje às 18h"
+      ],
+      "link": {
+        "t": "Painel do Lorenzo",
+        "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/10e173d5-a9b1-4564-9c63-2153e63ff76f"
+      }
+    },
+    {
+      "id": "vs",
+      "ag": "122fd54e-b7f6-47f1-b110-0b96931c9f62",
+      "nome": "VS Jóias",
+      "papel": "Cliente Valéria de Sordi",
+      "status": "aguardando",
+      "entregas": [
+        "Meta conectada no Adspirer: conta Nexor Ads (1652199342970726, BRL, São Paulo) ativa para os anúncios da VS, como o Darth decidiu às 19h14 de 1/11",
+        "Postiz corrigido com a nova chave: o bot já enxerga o Instagram vs_jewelry_ ativo",
+        "A conta VS Jóias Ads (2255692508334441) não apareceu no Adspirer, nem pelo Facebook da Valéria nem pelo perfil do Rodrigo",
+        "Bot assumiu a frente de redes sociais e anúncios da VS"
+      ],
+      "pendente": [
+        "Preparar os primeiros posts estáticos da VS para o Darth aprovar",
+        "Criativos, orçamento e forma de pagamento só com o ok do Darth (nada publicado, nada gasto)",
+        "Dados reais da loja: WhatsApp, peças e preços, pagamento, entrega, troca, garantia e tom da Valéria",
+        "Anúncios saem pela Nexor Ads; Instagram e demais ativos seguem na VS"
+      ]
+    },
+    {
+      "id": "cons",
+      "ag": "08abf635-4a13-4c8f-8b2f-8222e34f3753",
+      "nome": "Consultor Estratégico",
+      "papel": "Consultor estratégico do CEO · ensina sobre o mercado, mantém o Darth atualizado, dá dicas aos outros bots e atua na melhoria da empresa",
+      "status": "aguardando",
+      "criado": "2/11",
+      "entregas": [
+        "12h48: começou o primeiro panorama de mercado da Nexor (IA conversacional e vendas pelo WhatsApp, com fontes)",
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": [
+        "Darth responder: qual é hoje o maior desafio da Nexor (vender mais, reter clientes, produto ou operação)?"
+      ]
+    },
+    {
+      "id": "fin",
+      "ag": "912d02c8-3ded-494b-8789-1dae217a5850",
+      "nome": "Financeiro",
+      "papel": "Finanças, contas e caixa da Nexor",
+      "status": "aguardando",
+      "criado": "2/11",
+      "entregas": [
+        "12h52: Painel Financeiro – Nexor montado (data, fornecedor, descrição, valor, moeda, recorrência, vencimento, fonte, status)",
+        "Total levantado: US$319,90, tudo aguardando confirmação (US$29,00 achados em e-mail + US$290,90 informados pela Nexa)",
+        "Achou no Gmail: cobrança de US$29 do Postiz RECUSADA em 1/11 (Stripe)",
+        "Escopo ajustado pelo Darth: só custos da Nexor; ElevenLabs classificada como custo da Nexor",
+        "Nada lançado no controle sem o ok do Darth",
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": [
+        "Darth confirmar: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
+        "Darth confirmar: Grok Ultra a US$260/mês e o dia da renovação",
+        "Valores e datas de cobrança da ElevenLabs e do Adspirer",
+        "HeyGen, Midjourney e pdfFiller são custos da Nexor?",
+        "Faturas no iCloud: encaminhar ou passar os valores (não há faturas de GitHub, domínio, hospedagem, Cursor, OpenAI ou Anthropic no Gmail)"
+      ]
+    },
+    {
+      "id": "cfg",
+      "ag": "914d0f9e-f281-443d-b265-e3747a3b4ca4",
+      "nome": "Nexor Configurador de Lojas",
+      "papel": "Onboarding e configuração dos agentes de cada loja · reporta à Nexa",
+      "status": "aguardando",
+      "entregas": [
+        "Lembrete das 10h06 enviado: Crono segue parada no login do 360dialog e do Facebook da loja",
+        "Site de onboarding das lojas pronto",
+        "Crono Jóias em configuração: parou na conexão do WhatsApp (+55 62 9419-2219)"
+      ],
+      "pendente": [
+        "Crono Jóias: login no 360dialog e no Facebook da loja",
+        "Crono Jóias depois: ativar pagamentos, contato da loja, escalonamento e revisar itens do catálogo desatualizados",
+        "Onboarding das outras lojas junto com o Darth"
+      ],
+      "gerente": "sec"
+    },
+    {
+      "id": "jur",
+      "ag": "7fd5324c-c230-49cd-901e-b31ef5d9f66e",
+      "nome": "Nexor Jurídico",
+      "papel": "Contratos, termos de uso, LGPD e registro de marca · reporta à Nexa",
+      "status": "ativo",
+      "criado": "2/11",
+      "gerente": "sec",
+      "secao": "Nexor AI",
+      "entregas": [
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": []
+    },
+    {
+      "id": "sup",
+      "ag": "40c90ce8-f228-4c48-a76b-3d37db2f4275",
+      "nome": "Nexor Suporte aos Clientes",
+      "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Nexa",
+      "status": "aguardando",
+      "criado": "2/11",
+      "gerente": "sec",
+      "secao": "Nexor AI",
+      "entregas": [
+        "12h52: pronto para o suporte das lojas, começando pela VS Jóias",
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": [
+        "Informar o canal onde chegam hoje os chamados da VS Jóias (WhatsApp, e-mail ou grupo com o Lorenzo)"
+      ]
+    },
+    {
+      "id": "com",
+      "ag": "7ede3518-d940-4bf9-9068-60ad933ad0c5",
+      "nome": "Nexor Comercial",
+      "papel": "Prospecção, funil de vendas e propostas · reporta à Nexa",
+      "status": "ativo",
+      "criado": "2/11",
+      "gerente": "sec",
+      "secao": "Nexor AI",
+      "entregas": [
+        "12h52: começou a montar a primeira lista de lojas para prospecção, no funil lead → contato → demo → proposta → fechamento",
+        "Bot criado pelo Darth em 2/11"
+      ],
+      "pendente": [
+        "Primeira lista de prospecção (nada sai para ninguém sem o ok do Darth)"
+      ]
+    }
   ],
-  "travado": [
-   "Adspirer: a conta de anúncios da VS (2255692508334441) não aparece; o Rodrigo autorizou usar a Nexor Ads se não der certo",
-   "Gabriel ainda não comentou o PDF da landing nem a stack",
-   "Crono Jóias parada no login do 360dialog e do Facebook da loja"
-  ]
- },
- "ROTINAS": [
-  "Resumo diário dos bots · 19:00 (horário de Brasília)",
-  "Checagem diária do iCloud Mail",
-  "Atualização do Prédio e do app · 9h, 14h e 19h",
-  "Atualização na hora pelo botão do app (GitHub → Nexa)",
-  "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
-  "Gabriel no WhatsApp · a cada 2 horas, 8h–22h",
-  "Instagram Nexor · estático ~12h e Reel ~19h (calendário 2–11/11)",
-  "Lorenzo · áudios diários sem pedir ok (seg 2/11: 13h30, 16h e 17h30); painel seg–sex ~18h",
-  "Lorenzo no WhatsApp · a cada 10 min, seg–sex 13h–17h50",
-  "Postiz · lembrete do fim do teste em 7/11 às 10h"
- ],
- "ONB": [
-  {
-   "id": "vs",
-   "nome": "VS Jóias",
-   "seg": "Cliente Valéria de Sordi",
-   "st": {
-    "1": "atencao",
-    "2": "pendente",
-    "3": "atencao",
-    "4": "atencao",
-    "5": "atencao",
-    "6": "atencao",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {
-    "1": "Perfil está vazio no painel.",
-    "3": "Política ainda é da Autolot USA. Precisa ser trocada pela política da VS Jóias.",
-    "4": "Persona está vazia no painel.",
-    "5": "Base de conhecimento está vazia no painel.",
-    "6": "WhatsApp ainda é o da Autolot USA. Precisa ser trocado pelo número da VS Jóias."
-   },
-   "alerta": "O período de teste termina em cerca de 5 dias. Faltam os dados reais da loja."
-  },
-  {
-   "id": "crono",
-   "nome": "Crono Jóias",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "kap",
-   "nome": "KAP Auto Sales",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "moveza",
-   "nome": "Moveza",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "motors",
-   "nome": "Nexor Motors",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  }
- ],
- "LOR": {
-  "status": "Todas as 8 aulas liberadas · provas abrem ao concluir as 8 aulas",
-  "horario": "13h30–17h30, segunda a sexta",
-  "pessoa": "Lorenzo Magalhaes Filhote, 17, head de relacionamento",
-  "tarefas": [
-   {
-    "f": "Agora",
-    "t": [
-     "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
-     "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
-     "Mandar print ao terminar cada aula e as provas (o progresso fica salvo só no celular dele)",
-     "Procurar o Rodrigo para revisar respostas, para a VS Jóias e em casos difíceis com cliente"
-    ]
-   }
+  "DECISOES": [
+    "Gabriel: seguir só com QR Code (o não oficial pode banir o número) ou manter o 360dialog em paralelo até a Meta aprovar?",
+    "Postiz: a cobrança de US$29 foi recusada em 1/11; atualizar o cartão antes do fim do teste em 8/11",
+    "Financeiro: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
+    "Financeiro: confirmar Grok Ultra US$260/mês e o dia da renovação",
+    "Financeiro: valor e data de cobrança da ElevenLabs e do Adspirer",
+    "Financeiro: HeyGen, Midjourney e pdfFiller são da Nexor?",
+    "Apagar do chat da Nexa a senha do iCloud e a chave do webhook, e trocar a senha do iCloud",
+    "Consultor: qual é hoje o maior desafio da Nexor?",
+    "Assessor Dev: por onde começar (repositório, código ou fluxo)?",
+    "Suporte: por qual canal chegam os chamados da VS Jóias?",
+    "Fixar o Reel institucional no topo do @nexorbrain pelo celular",
+    "Apagar do chat do bot VS Jóias a senha do Facebook da Valéria e a chave do Postiz",
+    "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
+    "VS Jóias: aprovar criativos, orçamento e forma de pagamento na Nexor Ads",
+    "Enviar os dados reais da VS Jóias",
+    "Crono Jóias: fazer o login no 360dialog e no Facebook da loja",
+    "Aprovar os ajustes da landing page",
+    "Confirmar quais são os 4 agentes do plano",
+    "Alinhar preço com o CTO (arquivo diz R$ 1.999; correto R$ 1.499)",
+    "Trocar o nome do perfil no Instagram"
   ],
-  "metas": [
-   "Ninguém sem resposta",
-   "Clientes novos configurados em até 7 dias",
-   "Resumo semanal toda sexta"
-  ],
-  "hist": [
-   {
-    "d": "31/out/2026",
-    "t": "Apresentação pelo WhatsApp. Lorenzo disse que se sente à vontade com atender e cuidar dos clientes. Foco inicial em atendimento, parcerias depois. Pediu pro Darth ligar."
-   },
-   {
-    "d": "31/out/2026",
-    "t": "Rodrigo aprovou a Universidade Nexor e as regras: a prova não pode ser refeita; dúvidas e casos difíceis vão para o Rodrigo."
-   },
-   {
-    "d": "01/nov/2026",
-    "t": "Todas as aulas liberadas às 17h58. À noite fez a aula 1 e acertou tudo. Teve estudo extra até 20h30. Rodrigo decidiu: as 2 provas abrem quando ele concluir as 8 aulas (painel ajustado às 19h01)."
-   },
-   {
-    "d": "02/nov/2026",
-    "t": "Rodrigo liberou (10h37) as mensagens diárias do Lorenzo sem precisar perguntar. Áudios da Raquel de hoje prontos para 13h30, 16h e 17h30. Painel atualiza às 18h. Áudio das 13h30 enviado com o link nexorbrain.com."
-   }
-  ]
- },
- "ANDARES": [
-  {
-   "n": "COB",
-   "setor": "Diretoria · CEO",
-   "c": "#fbbf24",
-   "bots": [
-    "ceo"
-   ],
-   "f": []
-  },
-  {
-   "n": "23",
-   "setor": "Tecnologia do CEO · Assessor Dev",
-   "c": "#38bdf8",
-   "bots": [
-    "adev"
-   ],
-   "f": []
-  },
-  {
-   "n": "22",
-   "setor": "Gestão · Nexa",
-   "c": "#3b82f6",
-   "bots": [
-    "sec"
-   ],
-   "f": []
-  },
-  {
-   "n": "21",
-   "setor": "Estratégia · Consultor do CEO",
-   "c": "#f5c542",
-   "bots": [
-    "cons"
-   ],
-   "f": []
-  },
-  {
-   "n": "20",
-   "setor": "Comunicação & PR",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Assessor de imprensa"
-   ]
-  },
-  {
-   "n": "19",
-   "setor": "Marketing",
-   "c": "#3b82f6",
-   "bots": [
+  "DECISOES_BOT": [
+    "dev",
+    "geral",
+    "fin",
+    "fin",
+    "fin",
+    "fin",
+    "geral",
+    "cons",
+    "adev",
+    "sup",
+    "mkt",
+    "vs",
+    "mkt",
+    "vs",
+    "vs",
+    "cfg",
+    "dev",
+    "geral",
+    "geral",
     "mkt"
-   ],
-   "f": []
-  },
-  {
-   "n": "18",
-   "setor": "Comercial · Vendas",
-   "c": "#fb923c",
-   "bots": [
-    "com"
-   ],
-   "f": []
-  },
-  {
-   "n": "17",
-   "setor": "Tráfego Pago",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Gestor de tráfego"
-   ]
-  },
-  {
-   "n": "16",
-   "setor": "Conteúdo & Social",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Social Media",
-    "Redator"
-   ]
-  },
-  {
-   "n": "15",
-   "setor": "Relacionamento & Pessoas",
-   "c": "#3b82f6",
-   "bots": [
-    "lor"
-   ],
-   "f": []
-  },
-  {
-   "n": "14",
-   "setor": "Customer Success",
-   "c": "#3b82f6",
-   "bots": [
-    "vs"
-   ],
-   "f": [
-    "CS das lojas"
-   ]
-  },
-  {
-   "n": "13",
-   "setor": "Suporte aos Clientes",
-   "c": "#2dd4bf",
-   "bots": [
-    "sup"
-   ],
-   "f": []
-  },
-  {
-   "n": "12",
-   "setor": "Onboarding & Implantação",
-   "c": "#3b82f6",
-   "bots": [
-    "cfg"
-   ],
-   "f": []
-  },
-  {
-   "n": "11",
-   "setor": "Operações",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Operações"
-   ]
-  },
-  {
-   "n": "10",
-   "setor": "Produto",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Product Manager"
-   ]
-  },
-  {
-   "n": "09",
-   "setor": "Tecnologia · Devs",
-   "c": "#3b82f6",
-   "bots": [
-    "dev"
-   ],
-   "f": []
-  },
-  {
-   "n": "08",
-   "setor": "QA",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "QA dos agentes"
-   ]
-  },
-  {
-   "n": "07",
-   "setor": "Infra & Segurança",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Monitoramento & Infra"
-   ]
-  },
-  {
-   "n": "06",
-   "setor": "Dados & BI",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Analista de dados"
-   ]
-  },
-  {
-   "n": "05",
-   "setor": "Financeiro",
-   "c": "#34d399",
-   "bots": [
-    "fin"
-   ],
-   "f": []
-  },
-  {
-   "n": "04",
-   "setor": "Cobrança",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Cobrança"
-   ]
-  },
-  {
-   "n": "03",
-   "setor": "Jurídico & Contratos",
-   "c": "#818cf8",
-   "bots": [
-    "jur"
-   ],
-   "f": []
-  },
-  {
-   "n": "02",
-   "setor": "RH & Recrutamento",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "RH"
-   ]
-  },
-  {
-   "n": "01",
-   "setor": "Compras & Parcerias",
-   "c": "#3b82f6",
-   "bots": [],
-   "f": [
-    "Parcerias"
-   ]
-  }
- ],
- "ETAPAS": [
-  {
-   "n": 1,
-   "t": "Dados da loja",
-   "d": "Perfil da loja no painel Nexor OS",
-   "itens": [
-    "Nome, segmento e cidade",
-    "Responsável e contato",
-    "Horário de atendimento",
-    "Formas de pagamento e entrega"
-   ]
-  },
-  {
-   "n": 2,
-   "t": "Produtos",
-   "d": "Catálogo que os agentes vão vender",
-   "itens": [
-    "Lista de produtos ou estoque",
-    "Preços e variações",
-    "Fotos e descrições",
-    "Disponibilidade"
-   ]
-  },
-  {
-   "n": 3,
-   "t": "Políticas",
-   "d": "Regras que os agentes seguem",
-   "itens": [
-    "Trocas e devoluções",
-    "Frete e prazos",
-    "Garantia",
-    "Pagamento e parcelamento"
-   ]
-  },
-  {
-   "n": 4,
-   "t": "Persona",
-   "d": "Tom de voz e jeito de atender",
-   "itens": [
-    "Nome do atendente virtual",
-    "Tom de voz da loja",
-    "O que pode e não pode dizer",
-    "Quando passar para um humano"
-   ]
-  },
-  {
-   "n": 5,
-   "t": "Base de conhecimento",
-   "d": "Tudo que os agentes precisam saber",
-   "itens": [
-    "Perguntas frequentes",
-    "Diferenciais da loja",
-    "Objeções comuns e respostas",
-    "Informações técnicas dos produtos"
-   ]
-  },
-  {
-   "n": 6,
-   "t": "Conexão do WhatsApp",
-   "d": "Número oficial da loja ligado aos agentes",
-   "itens": [
-    "Número da própria loja",
-    "Conta WhatsApp Business verificada",
-    "Mensagens modelo aprovadas",
-    "Teste de envio e recebimento"
-   ]
-  },
-  {
-   "n": 7,
-   "t": "Nexor Pay",
-   "d": "Cobrança direto na conversa",
-   "itens": [
-    "Cadastro da loja no Nexor Pay",
-    "Meios de pagamento ativos",
-    "Link de pagamento testado"
-   ]
-  },
-  {
-   "n": 8,
-   "t": "Testes",
-   "d": "Simulações antes de ir ao ar",
-   "itens": [
-    "Conversas de teste com os 4 agentes",
-    "Revisão de respostas com o dono",
-    "Ajustes finais"
-   ]
-  },
-  {
-   "n": 9,
-   "t": "Ativação",
-   "d": "Agentes atendendo clientes reais",
-   "itens": [
-    "Aprovação final do Darth e da loja",
-    "Agentes ligados no WhatsApp",
-    "Acompanhamento da primeira semana"
-   ]
-  }
- ],
- "FIN": {
-  "titulo": "Painel Financeiro – Nexor",
-  "resumo": "Custos da Nexor: US$319,90 levantados, todos aguardando a confirmação do Darth. Nada lançado no controle.",
-  "aguardando": [
-   {
-    "item": "Postiz",
-    "valor": "US$29,00",
-    "obs": "Cobrança RECUSADA em 1/11 (e-mail da Stripe)"
-   },
-   {
-    "item": "Postiz?, pendente no Cash App",
-    "valor": "US$29,87",
-    "obs": "Confirmar se é Postiz"
-   },
-   {
-    "item": "Postiz?, pendente no Cash App",
-    "valor": "US$1,03",
-    "obs": "Confirmar se é Postiz"
-   },
-   {
-    "item": "Grok Ultra (Apple)",
-    "valor": "US$260/mês",
-    "obs": "Sem recibo no Gmail; confirmar valor e dia da renovação"
-   },
-   {
-    "item": "ElevenLabs",
-    "valor": "a confirmar",
-    "obs": "Custo da Nexor (Darth confirmou); sem fatura no Gmail"
-   },
-   {
-    "item": "Adspirer",
-    "valor": "a confirmar",
-    "obs": "Só e-mail de boas-vindas de 1/11; plano e valor?"
-   },
-   {
-    "item": "HeyGen",
-    "valor": "R$385,36",
-    "obs": "Recusadas entre 26/05 e 23/06/2026; é da Nexor?"
-   },
-   {
-    "item": "Midjourney",
-    "valor": "US$30",
-    "obs": "Recusados entre 19/06 e 28/06/2026; é da Nexor?"
-   },
-   {
-    "item": "pdfFiller",
-    "valor": "a confirmar",
-    "obs": "Mensal desde 06/2026, valores não aparecem; é da Nexor?"
-   }
   ],
-  "lancados": [],
-  "total_lancado": "Lançados no controle até agora: nenhum. Total aguardando confirmação: US$319,90.",
-  "vencimentos": [
-   {
-    "item": "Postiz",
-    "data": "8/11",
-    "obs": "Fim do teste; última cobrança foi recusada"
-   }
+  "TICKER": [
+    "NEXA ▸ Secretária agora se chama Nexa",
+    "MKT ▸ post do prédio aprovado, publicando no feed",
+    "DEV ▸ Gabriel trocando para QR Code; Darth decide o caminho",
+    "LOR ▸ áudio das 13h30 enviado",
+    "MKT ▸ calendário 2–11/11 aprovado (20 posts)",
+    "MKT ▸ estático do Dia 1 no ar às 12h06",
+    "MKT ▸ Reel do Dia 1 às 19h",
+    "FIN ▸ US$319,90 aguardando confirmação",
+    "FIN ▸ Postiz: cobrança de US$29 recusada",
+    "LOR ▸ mensagens diárias liberadas pelo Rodrigo",
+    "CONS ▸ panorama de mercado em andamento",
+    "COM ▸ 1ª lista de prospecção em montagem",
+    "CFG ▸ Crono parada no WhatsApp",
+    "SEC ▸ botão atualizar ligado via GitHub",
+    "SEC ▸ Prédio às 9h, 14h e 19h",
+    "LOR ▸ áudios 16h e 17h30"
   ],
-  "fonte": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/b55e9d2d-3659-486e-a5dd-91040d7c2e1f"
- }
+  "ARQ": [
+    {
+      "t": "Relatório da landing page para o dev",
+      "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/766737bf-8fed-41f9-b9ac-36a7bccadc47"
+    },
+    {
+      "t": "Plano de lançamento: marketing, tráfego e vendas",
+      "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/2577808a-8c5c-4685-9f34-ad3aaf6e5687"
+    },
+    {
+      "t": "Painel do Lorenzo – Nexor",
+      "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/10e173d5-a9b1-4564-9c63-2153e63ff76f"
+    },
+    {
+      "t": "Universidade Nexor do Lorenzo",
+      "u": "https://minha-jornada-na-nexor-4hde.pages.grok.bot/"
+    },
+    {
+      "t": "Site de onboarding das lojas",
+      "u": "https://bem-vindo-a-nexor-onboarding-ruhb.pages.grok.bot/"
+    },
+    {
+      "t": "Site nexorbrain.com",
+      "u": "https://nexorbrain.com"
+    },
+    {
+      "t": "Instagram @nexorbrain",
+      "u": "https://instagram.com/nexorbrain"
+    }
+  ],
+  "RESUMO_ID": "2026-11-01",
+  "LORENZO_LAST_UPDATE": "2026-10-31T22:43",
+  "RESUMO": {
+    "data": "Domingo, 1 de novembro de 2026",
+    "bots": [
+      {
+        "b": "Nexa",
+        "t": "Cobrou o Gabriel às 10h38 (áudio Raquel); corrigiu os avisos falsos do Lorenzo no Cérebro; pesquisou ligações de WhatsApp com IA (recomendação: API oficial da Meta + ElevenLabs); mandou ao Lorenzo o áudio e o link às 18h01 e acompanha ele até 20h30."
+      },
+      {
+        "b": "Nexor Marketing",
+        "t": "Vídeos de anúncio v2 a v9 (stories e feed) prontos; som do v3 feed corrigido; nada publicado."
+      },
+      {
+        "b": "Nexor Devs – Gabriel",
+        "t": "Gabriel respondeu a cobrança só com brincadeiras; às 16h10 o bot mandou nova cobrança. Por volta das 17h ele mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider), depois o cliente conecta o número por QR code (coexistência)."
+      },
+      {
+        "b": "Lorenzo – Acompanhamento",
+        "t": "Liberou as 8 aulas às 17h58; Lorenzo fez a aula 1 à noite e acertou tudo; às 19h01 o painel passou a liberar as 2 provas quando ele concluir as 8 aulas."
+      },
+      {
+        "b": "VS Jóias",
+        "t": "Tentou ligar a conta de anúncios 2255692508334441 no Adspirer pelo Facebook da Valéria (parou na verificação do Google) e pelo perfil do Rodrigo (a conta da VS não apareceu)."
+      },
+      {
+        "b": "Nexor Configurador de Lojas",
+        "t": "Lembrete das 10h06 enviado: a Crono segue parada no login do 360dialog e do Facebook da loja."
+      }
+    ],
+    "travado": [
+      "Adspirer: a conta de anúncios da VS (2255692508334441) não aparece; o Rodrigo autorizou usar a Nexor Ads se não der certo",
+      "Gabriel ainda não comentou o PDF da landing nem a stack",
+      "Crono Jóias parada no login do 360dialog e do Facebook da loja"
+    ]
+  },
+  "ROTINAS": [
+    "Resumo diário dos bots · 19:00 (horário de Brasília)",
+    "Checagem diária do iCloud Mail",
+    "Atualização do Prédio e do app · 9h, 14h e 19h",
+    "Atualização na hora pelo botão do app (GitHub → Nexa)",
+    "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
+    "Gabriel no WhatsApp · a cada 2 horas, 8h–22h",
+    "Instagram Nexor · estático ~12h e Reel ~19h (calendário 2–11/11)",
+    "Lorenzo · áudios diários sem pedir ok (seg 2/11: 13h30, 16h e 17h30); painel seg–sex ~18h",
+    "Lorenzo no WhatsApp · a cada 10 min, seg–sex 13h–17h50",
+    "Postiz · lembrete do fim do teste em 7/11 às 10h"
+  ],
+  "ONB": [
+    {
+      "id": "vs",
+      "nome": "VS Jóias",
+      "seg": "Cliente Valéria de Sordi",
+      "st": {
+        "1": "atencao",
+        "2": "pendente",
+        "3": "atencao",
+        "4": "atencao",
+        "5": "atencao",
+        "6": "atencao",
+        "7": "pendente",
+        "8": "pendente",
+        "9": "pendente"
+      },
+      "notas": {
+        "1": "Perfil está vazio no painel.",
+        "3": "Política ainda é da Autolot USA. Precisa ser trocada pela política da VS Jóias.",
+        "4": "Persona está vazia no painel.",
+        "5": "Base de conhecimento está vazia no painel.",
+        "6": "WhatsApp ainda é o da Autolot USA. Precisa ser trocado pelo número da VS Jóias."
+      },
+      "alerta": "O período de teste termina em cerca de 5 dias. Faltam os dados reais da loja."
+    },
+    {
+      "id": "crono",
+      "nome": "Crono Jóias",
+      "seg": "Dados ainda não recebidos",
+      "st": {
+        "1": "pendente",
+        "2": "pendente",
+        "3": "pendente",
+        "4": "pendente",
+        "5": "pendente",
+        "6": "pendente",
+        "7": "pendente",
+        "8": "pendente",
+        "9": "pendente"
+      },
+      "notas": {}
+    },
+    {
+      "id": "kap",
+      "nome": "KAP Auto Sales",
+      "seg": "Dados ainda não recebidos",
+      "st": {
+        "1": "pendente",
+        "2": "pendente",
+        "3": "pendente",
+        "4": "pendente",
+        "5": "pendente",
+        "6": "pendente",
+        "7": "pendente",
+        "8": "pendente",
+        "9": "pendente"
+      },
+      "notas": {}
+    },
+    {
+      "id": "moveza",
+      "nome": "Moveza",
+      "seg": "Dados ainda não recebidos",
+      "st": {
+        "1": "pendente",
+        "2": "pendente",
+        "3": "pendente",
+        "4": "pendente",
+        "5": "pendente",
+        "6": "pendente",
+        "7": "pendente",
+        "8": "pendente",
+        "9": "pendente"
+      },
+      "notas": {}
+    },
+    {
+      "id": "motors",
+      "nome": "Nexor Motors",
+      "seg": "Dados ainda não recebidos",
+      "st": {
+        "1": "pendente",
+        "2": "pendente",
+        "3": "pendente",
+        "4": "pendente",
+        "5": "pendente",
+        "6": "pendente",
+        "7": "pendente",
+        "8": "pendente",
+        "9": "pendente"
+      },
+      "notas": {}
+    }
+  ],
+  "LOR": {
+    "status": "Todas as 8 aulas liberadas · provas abrem ao concluir as 8 aulas",
+    "horario": "13h30–17h30, segunda a sexta",
+    "pessoa": "Lorenzo Magalhaes Filhote, 17, head de relacionamento",
+    "tarefas": [
+      {
+        "f": "Agora",
+        "t": [
+          "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
+          "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
+          "Mandar print ao terminar cada aula e as provas (o progresso fica salvo só no celular dele)",
+          "Procurar o Rodrigo para revisar respostas, para a VS Jóias e em casos difíceis com cliente"
+        ]
+      }
+    ],
+    "metas": [
+      "Ninguém sem resposta",
+      "Clientes novos configurados em até 7 dias",
+      "Resumo semanal toda sexta"
+    ],
+    "hist": [
+      {
+        "d": "31/out/2026",
+        "t": "Apresentação pelo WhatsApp. Lorenzo disse que se sente à vontade com atender e cuidar dos clientes. Foco inicial em atendimento, parcerias depois. Pediu pro Darth ligar."
+      },
+      {
+        "d": "31/out/2026",
+        "t": "Rodrigo aprovou a Universidade Nexor e as regras: a prova não pode ser refeita; dúvidas e casos difíceis vão para o Rodrigo."
+      },
+      {
+        "d": "01/nov/2026",
+        "t": "Todas as aulas liberadas às 17h58. À noite fez a aula 1 e acertou tudo. Teve estudo extra até 20h30. Rodrigo decidiu: as 2 provas abrem quando ele concluir as 8 aulas (painel ajustado às 19h01)."
+      },
+      {
+        "d": "02/nov/2026",
+        "t": "Rodrigo liberou (10h37) as mensagens diárias do Lorenzo sem precisar perguntar. Áudios da Raquel de hoje prontos para 13h30, 16h e 17h30. Painel atualiza às 18h. Áudio das 13h30 enviado com o link nexorbrain.com."
+      }
+    ]
+  },
+  "ANDARES": [
+    {
+      "n": "COB",
+      "setor": "Diretoria · CEO",
+      "c": "#fbbf24",
+      "bots": [
+        "ceo"
+      ],
+      "f": []
+    },
+    {
+      "n": "23",
+      "setor": "Tecnologia do CEO · Assessor Dev",
+      "c": "#38bdf8",
+      "bots": [
+        "adev"
+      ],
+      "f": []
+    },
+    {
+      "n": "22",
+      "setor": "Gestão · Nexa",
+      "c": "#3b82f6",
+      "bots": [
+        "sec"
+      ],
+      "f": []
+    },
+    {
+      "n": "21",
+      "setor": "Estratégia · Consultor do CEO",
+      "c": "#f5c542",
+      "bots": [
+        "cons"
+      ],
+      "f": []
+    },
+    {
+      "n": "20",
+      "setor": "Comunicação & PR",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Assessor de imprensa"
+      ]
+    },
+    {
+      "n": "19",
+      "setor": "Marketing",
+      "c": "#3b82f6",
+      "bots": [
+        "mkt"
+      ],
+      "f": []
+    },
+    {
+      "n": "18",
+      "setor": "Comercial · Vendas",
+      "c": "#fb923c",
+      "bots": [
+        "com"
+      ],
+      "f": []
+    },
+    {
+      "n": "17",
+      "setor": "Tráfego Pago",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Gestor de tráfego"
+      ]
+    },
+    {
+      "n": "16",
+      "setor": "Conteúdo & Social",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Social Media",
+        "Redator"
+      ]
+    },
+    {
+      "n": "15",
+      "setor": "Relacionamento & Pessoas",
+      "c": "#3b82f6",
+      "bots": [
+        "lor"
+      ],
+      "f": []
+    },
+    {
+      "n": "14",
+      "setor": "Customer Success",
+      "c": "#3b82f6",
+      "bots": [
+        "vs"
+      ],
+      "f": [
+        "CS das lojas"
+      ]
+    },
+    {
+      "n": "13",
+      "setor": "Suporte aos Clientes",
+      "c": "#2dd4bf",
+      "bots": [
+        "sup"
+      ],
+      "f": []
+    },
+    {
+      "n": "12",
+      "setor": "Onboarding & Implantação",
+      "c": "#3b82f6",
+      "bots": [
+        "cfg"
+      ],
+      "f": []
+    },
+    {
+      "n": "11",
+      "setor": "Operações",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Operações"
+      ]
+    },
+    {
+      "n": "10",
+      "setor": "Produto",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Product Manager"
+      ]
+    },
+    {
+      "n": "09",
+      "setor": "Tecnologia · Devs",
+      "c": "#3b82f6",
+      "bots": [
+        "dev"
+      ],
+      "f": []
+    },
+    {
+      "n": "08",
+      "setor": "QA",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "QA dos agentes"
+      ]
+    },
+    {
+      "n": "07",
+      "setor": "Infra & Segurança",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Monitoramento & Infra"
+      ]
+    },
+    {
+      "n": "06",
+      "setor": "Dados & BI",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Analista de dados"
+      ]
+    },
+    {
+      "n": "05",
+      "setor": "Financeiro",
+      "c": "#34d399",
+      "bots": [
+        "fin"
+      ],
+      "f": []
+    },
+    {
+      "n": "04",
+      "setor": "Cobrança",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Cobrança"
+      ]
+    },
+    {
+      "n": "03",
+      "setor": "Jurídico & Contratos",
+      "c": "#818cf8",
+      "bots": [
+        "jur"
+      ],
+      "f": []
+    },
+    {
+      "n": "02",
+      "setor": "RH & Recrutamento",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "RH"
+      ]
+    },
+    {
+      "n": "01",
+      "setor": "Compras & Parcerias",
+      "c": "#3b82f6",
+      "bots": [],
+      "f": [
+        "Parcerias"
+      ]
+    }
+  ],
+  "ETAPAS": [
+    {
+      "n": 1,
+      "t": "Dados da loja",
+      "d": "Perfil da loja no painel Nexor OS",
+      "itens": [
+        "Nome, segmento e cidade",
+        "Responsável e contato",
+        "Horário de atendimento",
+        "Formas de pagamento e entrega"
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Produtos",
+      "d": "Catálogo que os agentes vão vender",
+      "itens": [
+        "Lista de produtos ou estoque",
+        "Preços e variações",
+        "Fotos e descrições",
+        "Disponibilidade"
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Políticas",
+      "d": "Regras que os agentes seguem",
+      "itens": [
+        "Trocas e devoluções",
+        "Frete e prazos",
+        "Garantia",
+        "Pagamento e parcelamento"
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Persona",
+      "d": "Tom de voz e jeito de atender",
+      "itens": [
+        "Nome do atendente virtual",
+        "Tom de voz da loja",
+        "O que pode e não pode dizer",
+        "Quando passar para um humano"
+      ]
+    },
+    {
+      "n": 5,
+      "t": "Base de conhecimento",
+      "d": "Tudo que os agentes precisam saber",
+      "itens": [
+        "Perguntas frequentes",
+        "Diferenciais da loja",
+        "Objeções comuns e respostas",
+        "Informações técnicas dos produtos"
+      ]
+    },
+    {
+      "n": 6,
+      "t": "Conexão do WhatsApp",
+      "d": "Número oficial da loja ligado aos agentes",
+      "itens": [
+        "Número da própria loja",
+        "Conta WhatsApp Business verificada",
+        "Mensagens modelo aprovadas",
+        "Teste de envio e recebimento"
+      ]
+    },
+    {
+      "n": 7,
+      "t": "Nexor Pay",
+      "d": "Cobrança direto na conversa",
+      "itens": [
+        "Cadastro da loja no Nexor Pay",
+        "Meios de pagamento ativos",
+        "Link de pagamento testado"
+      ]
+    },
+    {
+      "n": 8,
+      "t": "Testes",
+      "d": "Simulações antes de ir ao ar",
+      "itens": [
+        "Conversas de teste com os 4 agentes",
+        "Revisão de respostas com o dono",
+        "Ajustes finais"
+      ]
+    },
+    {
+      "n": 9,
+      "t": "Ativação",
+      "d": "Agentes atendendo clientes reais",
+      "itens": [
+        "Aprovação final do Darth e da loja",
+        "Agentes ligados no WhatsApp",
+        "Acompanhamento da primeira semana"
+      ]
+    }
+  ],
+  "FIN": {
+    "titulo": "Painel Financeiro – Nexor",
+    "resumo": "Custos da Nexor: US$319,90 levantados, todos aguardando a confirmação do Darth. Nada lançado no controle.",
+    "aguardando": [
+      {
+        "item": "Postiz",
+        "valor": "US$29,00",
+        "obs": "Cobrança RECUSADA em 1/11 (e-mail da Stripe)"
+      },
+      {
+        "item": "Postiz?, pendente no Cash App",
+        "valor": "US$29,87",
+        "obs": "Confirmar se é Postiz"
+      },
+      {
+        "item": "Postiz?, pendente no Cash App",
+        "valor": "US$1,03",
+        "obs": "Confirmar se é Postiz"
+      },
+      {
+        "item": "Grok Ultra (Apple)",
+        "valor": "US$260/mês",
+        "obs": "Sem recibo no Gmail; confirmar valor e dia da renovação"
+      },
+      {
+        "item": "ElevenLabs",
+        "valor": "a confirmar",
+        "obs": "Custo da Nexor (Darth confirmou); sem fatura no Gmail"
+      },
+      {
+        "item": "Adspirer",
+        "valor": "a confirmar",
+        "obs": "Só e-mail de boas-vindas de 1/11; plano e valor?"
+      },
+      {
+        "item": "HeyGen",
+        "valor": "R$385,36",
+        "obs": "Recusadas entre 26/05 e 23/06/2026; é da Nexor?"
+      },
+      {
+        "item": "Midjourney",
+        "valor": "US$30",
+        "obs": "Recusados entre 19/06 e 28/06/2026; é da Nexor?"
+      },
+      {
+        "item": "pdfFiller",
+        "valor": "a confirmar",
+        "obs": "Mensal desde 06/2026, valores não aparecem; é da Nexor?"
+      }
+    ],
+    "lancados": [],
+    "total_lancado": "Lançados no controle até agora: nenhum. Total aguardando confirmação: US$319,90.",
+    "vencimentos": [
+      {
+        "item": "Postiz",
+        "data": "8/11",
+        "obs": "Fim do teste; última cobrança foi recusada"
+      }
+    ],
+    "fonte": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/b55e9d2d-3659-486e-a5dd-91040d7c2e1f"
+  }
 }

@@ -1,0 +1,97 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Nexor"><meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-180.png">
+<link rel="apple-touch-startup-image" href="splash-1179x2556.png" media="(device-width:393px) and (device-height:852px) and (-webkit-device-pixel-ratio:3)">
+<link rel="apple-touch-startup-image" href="splash-1290x2796.png" media="(device-width:430px) and (device-height:932px) and (-webkit-device-pixel-ratio:3)">
+<link rel="apple-touch-startup-image" href="splash-1170x2532.png" media="(device-width:390px) and (device-height:844px) and (-webkit-device-pixel-ratio:3)">
+<title>Nexor</title>
+<style>
+:root{--b:#3b82f6;--l:#4ade80;--st:env(safe-area-inset-top);--sb:env(safe-area-inset-bottom)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:#000;color:#e2e8f0;font:15px -apple-system,system-ui,sans-serif;overscroll-behavior:none}
+#app{min-height:100vh;padding:calc(var(--st) + 8px) 14px calc(var(--sb) + 84px)}
+h1{font-size:13px;letter-spacing:.25em;text-align:center;color:#93c5fd;margin:6px 0 0}
+.sub{font-size:11px;text-align:center;color:#64748b}
+#brainBtn{display:block;margin:4px auto 0;background:none;border:0;padding:0;position:relative}
+#brainLbl{display:block;text-align:center;font-size:13px;color:#bfdbfe;margin:-6px 0 10px}
+#brainBtn.on canvas{filter:drop-shadow(0 0 18px #4ade80)}
+.tower{display:flex;flex-direction:column;gap:3px;max-width:330px;margin:0 auto;padding:8px;border:1px solid #1e3a8a;border-radius:10px;background:linear-gradient(#020617,#0b1220)}
+.fl{display:flex;align-items:center;gap:8px;min-height:30px;padding:4px 8px;border-radius:6px;background:#0f172a;border:1px solid #1e293b;font-size:12px;color:#94a3b8}
+.fl.at{color:#fff;border-color:var(--c)}.fl .n{width:30px;font-weight:700;color:var(--c,#475569)}
+.dot{width:8px;height:8px;border-radius:50%;margin-left:auto;background:#334155}.at .dot{background:var(--c);box-shadow:0 0 8px var(--c);animation:p 1.6s infinite}
+@keyframes p{50%{opacity:.35}}
+.card{display:block;width:100%;text-align:left;background:#0f172a;border:1px solid #1e293b;border-radius:14px;padding:14px;margin:0 0 10px;color:inherit;font:inherit;text-decoration:none}
+.card b{display:block;font-size:16px;color:#fff}.card small{color:#94a3b8}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid var(--c);color:var(--c);margin-top:6px}
+.sec{font-size:12px;letter-spacing:.15em;color:#64748b;margin:18px 4px 8px}
+.btn{display:block;width:100%;padding:15px;border-radius:14px;border:0;background:var(--b);color:#fff;font:600 16px -apple-system,system-ui;text-align:center;text-decoration:none;margin:8px 0}
+.btn.g{background:#1e293b}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:rgba(10,10,14,.85);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid #1e293b;padding:6px 6px calc(var(--sb) + 6px)}
+nav button{flex:1;background:none;border:0;color:#64748b;font:600 11px -apple-system,system-ui;padding:6px 0;display:flex;flex-direction:column;align-items:center;gap:3px}
+nav button i{font-style:normal;font-size:22px}nav button.on{color:#93c5fd}
+#shade{z-index:20;position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:.25s}
+#sheet{z-index:21;position:fixed;left:0;right:0;bottom:0;max-height:86vh;overflow:auto;background:#0b1120;border-radius:20px 20px 0 0;border-top:1px solid #1e3a8a;padding:10px 16px calc(var(--sb) + 18px);transform:translateY(105%);transition:transform .32s cubic-bezier(.2,.9,.3,1)}
+.open #shade{opacity:1;pointer-events:auto}.open #sheet{transform:none}
+#sheet .grab{width:40px;height:5px;border-radius:3px;background:#334155;margin:0 auto 12px}
+li{margin:0 0 8px;line-height:1.35}ul{padding-left:18px}
+#toast{position:fixed;left:50%;bottom:calc(var(--sb) + 90px);transform:translateX(-50%);background:#04110a;border:1px solid var(--l);color:#dcfce7;border-radius:12px;padding:10px 14px;font-size:13px;max-width:340px;display:none;z-index:9}
+</style></head><body><div id="app"></div>
+<div id="shade" onclick="closeSheet()"></div><div id="sheet"><div class="grab"></div><div id="sc"></div></div>
+<div id="toast"></div>
+<nav id="nav"></nav>
+<script>
+const AGENT="agent_3801m6e6typsem693q8pkgje7w7t",VOZ="https://elevenlabs.io/app/talk-to?agent_id="+AGENT;
+const COR={mkt:"#f472b6",dev:"#22d3ee",lor:"#a78bfa",vs:"#fbbf24",cfg:"#34d399",geral:"#94a3b8",ceo:"#fbbf24",sec:"#60a5fa"};
+let D=null,tab="predio";const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const chat=id=>"grokbot://app/v1/agent?id="+id;
+function toast(t){const e=$("#toast");e.textContent=t;e.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>e.style.display="none",4500)}
+function copy(t){try{navigator.clipboard.writeText(t)}catch(e){}}
+function sec(t){copy("Sobre: "+t);toast("Copiado ✓ Abrindo o chat da Secretária — cole lá se precisar.")}
+function bots(){return [...D.BOTS,...Object.values(D.EXTRA||{})]}
+function bot(id){return bots().find(b=>b.id===id)}
+// ---- brain
+function brain(cv,size){const ctx=cv.getContext("2d"),d=Math.min(devicePixelRatio||1,2),W=size,H=size;cv.width=W*d;cv.height=H*d;cv.style.width=cv.style.height=size+"px";ctx.setTransform(d,0,0,d,0,0);
+const N=90,pts=Array.from({length:N},()=>({th:Math.random()*6.283,ph:Math.acos(2*Math.random()-1),f:Math.random()*6}));
+const draw=t=>{const s=t/1000,cx=W/2,cy=H/2,R=W*.27;ctx.clearRect(0,0,W,H);const g=ctx.createRadialGradient(cx,cy,0,cx,cy,R*1.9);g.addColorStop(0,"rgba(59,130,246,.45)");g.addColorStop(1,"rgba(0,0,0,0)");ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+const rot=s*.45,tilt=Math.sin(s*.4)*.3;const pr=pts.map(p=>{const x=Math.sin(p.ph)*Math.cos(p.th+rot),y0=Math.cos(p.ph),z0=Math.sin(p.ph)*Math.sin(p.th+rot),y=y0*Math.cos(tilt)-z0*Math.sin(tilt),br=1+.05*Math.sin(s*3+p.f)*(talking?3:1);return{x:cx+x*R*1.15*br,y:cy+y*R*.9*br,z:z0,f:p.f}});
+ctx.lineWidth=.7;const lim=R*.42;for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){const a=pr[i],b=pr[j],dd=Math.hypot(a.x-b.x,a.y-b.y);if(dd<lim){const fire=Math.sin(s*4+a.f*3)>.9;ctx.strokeStyle=fire?`rgba(255,255,255,${.95-dd/lim})`:`rgba(96,165,250,${(1-dd/lim)*.6})`;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}}
+for(const p of pr){ctx.fillStyle=`rgba(219,234,254,${.4+(p.z+1)*.3})`;ctx.beginPath();ctx.arc(p.x,p.y,.8+(p.z+1)*.8,0,6.283);ctx.fill()}
+const pp=.6+.4*Math.sin(s*2.5),cg=ctx.createRadialGradient(cx,cy,0,cx,cy,R*.4);cg.addColorStop(0,`rgba(255,255,255,${pp})`);cg.addColorStop(1,"rgba(59,130,246,0)");ctx.fillStyle=cg;ctx.beginPath();ctx.arc(cx,cy,R*.4,0,6.283);ctx.fill();
+ctx.lineWidth=2;ctx.shadowBlur=12;[["#3b82f6",s,1.3],["#93c5fd",-s*.8+3,.9],["#ffffff",s*.5+1.5,.5]].forEach(([c,a0,l],k)=>{ctx.strokeStyle=c;ctx.shadowColor=c;ctx.beginPath();ctx.ellipse(cx,cy,R*(1.45+k*.12),R*(1.05+k*.1),0,a0,a0+l);ctx.stroke()});ctx.shadowBlur=0;requestAnimationFrame(draw)};requestAnimationFrame(draw)}
+// ---- voz (ElevenLabs SDK; se falhar abre a página de voz)
+let conv=null,talking=false;
+async function voz(){const b=$("#brainBtn"),l=$("#brainLbl");
+ if(conv){await conv.endSession();conv=null;talking=false;b.classList.remove("on");l.textContent="Toque no cérebro para falar";return}
+ l.textContent="Conectando… permita o microfone";
+ try{await navigator.mediaDevices.getUserMedia({audio:true});const {Conversation}=await import("https://esm.sh/@elevenlabs/client@0");
+  conv=await Conversation.startSession({agentId:AGENT,connectionType:"webrtc",onModeChange:m=>{talking=m.mode==="speaking";l.textContent=talking?"NEXOR Core falando…":"Ouvindo você… (toque para encerrar)"},onDisconnect:()=>{conv=null;talking=false;b.classList.remove("on");l.textContent="Toque no cérebro para falar"}});
+  b.classList.add("on");l.textContent="Ouvindo você… (toque para encerrar)";
+ }catch(e){l.textContent="Toque no cérebro para falar";toast("Voz direta indisponível ("+(e.name||"erro")+"). Abrindo a página de voz.");location.href=VOZ}}
+// ---- views
+function vPredio(){const occ={};D.ANDARES.forEach(a=>a.bots.forEach(id=>occ[a.n]=id));
+ return `<button id="brainBtn" onclick="voz()" aria-label="Falar com NEXOR Core"><canvas id="bc"></canvas></button><span id="brainLbl">Toque no cérebro para falar</span>
+ <div class="tower">${D.ANDARES.map(a=>{const id=a.bots[0],c=a.c||COR[id]||"#475569";return `<div class="fl ${id?"at":""}" style="--c:${c}" ${id?`onclick="sheetBot('${id}')"`:""}><span class="n">${esc(a.n)}</span>${esc(a.setor)}${id?` · ${esc((bot(id)||{}).nome||"")}`:""}<span class="dot"></span></div>`}).join("")}</div>
+ <p class="sub">Atualizado ${esc(D.ATUALIZADO)} (Brasília)</p>`}
+function vTarefas(){return `<div class="sec">PENDENTE COM VOCÊ</div>`+bots().filter(b=>b.pendente&&b.pendente.length&&b.id!=="ceo").map(b=>`<button class="card" style="--c:${COR[b.id]||"#94a3b8"}" onclick="sheetBot('${b.id}')"><b>${esc(b.nome)}</b><small>${esc(b.papel)}</small><br><span class="pill">${b.pendente.length} pendente(s) · ${b.entregas.length} entregue(s)</span></button>`).join("")}
+function vDec(){const g={};D.DECISOES.forEach((t,i)=>{const k=D.DECISOES_BOT[i]||"geral";(g[k]=g[k]||[]).push([t,i])});
+ return `<div class="sec">SUAS DECISÕES (${D.DECISOES.length})</div>`+Object.entries(g).map(([k,v])=>`<div class="sec" style="color:${COR[k]}">${esc(k==="geral"?"Geral":(bot(k)||{}).nome||k)}</div>`+v.map(([t,i])=>`<button class="card" onclick="sheetDec(${i})">${esc(t)}</button>`).join("")).join("")}
+function vBots(){return bots().map(b=>`<button class="card" style="--c:${COR[b.id]||"#94a3b8"}" onclick="sheetBot('${b.id}')"><b>${esc(b.nome)}</b><small>${esc(b.papel)}</small><br><span class="pill">${esc(b.status)}</span></button>`).join("")+
+ `<div class="sec">ROTINAS</div><div class="card"><ul>${D.ROTINAS.map(r=>`<li>${esc(r)}</li>`).join("")}</ul></div>`}
+function sheetBot(id){const b=bot(id);if(!b)return;const ls=(t,a)=>a&&a.length?`<div class="sec">${t}</div><ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+ openSheet(`<b style="font-size:20px;color:${COR[id]||"#fff"}">${esc(b.nome)}</b><div class="sub" style="text-align:left">${esc(b.papel)} · ${esc(b.status)}</div>${ls("PENDENTE COM VOCÊ",b.pendente)}${ls("ENTREGUE",b.entregas)}
+ ${b.ag?`<a class="btn" href="${chat(b.ag)}">Abrir chat do bot</a>`:""}${b.link?`<a class="btn g" href="${esc(b.link.u)}" target="_blank" rel="noopener">${esc(b.link.t)} ↗</a>`:""}<a class="btn g" href="${chat(D.SEC_ID)}" onclick="sec('${esc(b.nome)}')">Mandar pra Secretária</a>`)}
+function sheetDec(i){const t=D.DECISOES[i];openSheet(`<div class="sec">DECISÃO</div><p style="font-size:17px">${esc(t)}</p><a class="btn" href="${chat(D.SEC_ID)}" onclick="sec(D.DECISOES[${i}])">Mandar pra Secretária</a><button class="btn g" onclick="closeSheet()">Fechar</button>`)}
+function openSheet(h){$("#sc").innerHTML=h;document.body.classList.add("open")}function closeSheet(){document.body.classList.remove("open")}
+const TABS=[["predio","🏢","Prédio",vPredio],["tarefas","✅","Tarefas",vTarefas],["dec","⚖️","Decisões",vDec],["bots","🤖","Bots",vBots]];
+function go(t){tab=t;closeSheet();render();scrollTo(0,0)}
+function render(){$("#app").innerHTML=`<h1>NEXOR · CÉREBRO CENTRAL</h1>`+TABS.find(x=>x[0]===tab)[3]();
+ $("#nav").innerHTML=TABS.map(([k,i,n])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')"><i>${i}</i>${n}</button>`).join("");
+ const cv=$("#bc");if(cv)brain(cv,Math.min(innerWidth*.62,260));if(location.hash)tab=location.hash.slice(1)}
+if(location.hash)tab=location.hash.slice(1);addEventListener("hashchange",()=>go(location.hash.slice(1)));
+fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{D=d;render()}).catch(()=>{$("#app").textContent="Sem conexão com data.json"});
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+</script></body></html>

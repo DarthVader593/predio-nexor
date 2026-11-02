@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "segunda, 2/11 às 13h30",
+ "ATUALIZADO": "segunda, 2/11 às 14h12",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -26,6 +26,8 @@
    "papel": "Marketing, vendas e tráfego",
    "status": "trabalhando",
    "entregas": [
+    "13h40–14h05: criativos do cérebro com o prédio (feed + 3 stories) em 3 versões; a última é um arranha-céu de vidro realista com os agentes nos andares",
+    "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)",
     "2/11 9h15: Darth aprovou o calendário do Instagram de 2 a 11/11 (1 estático no feed + 1 Reel por dia, 20 posts)",
     "Estático de amanhã ajustado a pedido do Darth: “Um time inteiro de IA, um só cérebro” (sem falar em 4 agentes)",
     "9h41: Darth liberou postar os dias 1 e 2 sem perguntar de novo",
@@ -35,6 +37,7 @@
     "6 stories de interação feitos; Darth postou e o bot colocou todos nos destaques (Planos, Agentes, Como funciona e o novo destaque Dúvidas)"
    ],
    "pendente": [
+    "Publicar agora o post do feed do prédio (“Cada andar da sua empresa, movido por um cérebro.”) e mandar o link ao Darth",
     "Hoje ~19h: Reel do Dia 1 (institucional v1, nunca publicado)",
     "Amanhã 3/11: estático ~12h e Reel ~19h do Dia 2",
     "Amanhã ~9h: mandar ao Darth as peças dos dias 3 e 4 para aprovar",
@@ -56,6 +59,8 @@
    "papel": "Acompanhamento do dev Gabriel",
    "status": "resposta",
    "entregas": [
+    "14h07: Gabriel disse (12h07) que está fazendo a conexão por QR Code e trocando o código; parou de olhar o chamado do 360dialog",
+    "14h09: mensagem de texto ao Gabriel pedindo que avise quando o QR Code estiver pronto (Darth será avisado por texto)",
     "~12h de 2/11: áudio educado ao Gabriel cobrando QR Code, IA da Nexor e 360dialog (entregue no WhatsApp)",
     "Gabriel sem sinal desde a noite de 1/11",
     "Por volta das 17h o Gabriel mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider); depois o cliente conecta o número por QR code (coexistência)",
@@ -64,8 +69,8 @@
     "Gabriel conversou cedo com o Rodrigo só sobre as taxas do Asaas/split (1,89% a 3,99%)"
    ],
    "pendente": [
-    "Gabriel prometeu para a manhã de 2/11: ligar o QR Code e plugar a IA da Nexor (ainda pendentes)",
-    "360dialog: nenhuma notícia; etapa que trava, erro exato, webhook, templates e log",
+    "Darth decidir: só QR Code (o não oficial pode banir o número; o oficial depende da Meta aprovar o Tech Provider) ou manter o 360dialog em paralelo. Sugestão do bot: não oficial só para poucos pilotos + 360 em paralelo",
+    "Gabriel ainda não plugou a IA da Nexor (prometida para a manhã de 2/11)",
     "Gabriel ainda não comentou o PDF da landing nem a stack (base do projeto)"
    ]
   },
@@ -76,6 +81,7 @@
    "papel": "Rotina e tarefas do Lorenzo (17 anos)",
    "status": "trabalhando",
    "entregas": [
+    "13h30: áudio da Raquel e link nexorbrain.com enviados ao Lorenzo no WhatsApp",
     "10h37 de 2/11: Rodrigo liberou as mensagens diárias do Lorenzo sem perguntar antes",
     "Áudios da Raquel de hoje prontos (13h30 com nexorbrain.com, 16h e 17h30)",
     "As 8 aulas da Universidade Nexor liberadas às 17h58 de 1/11",
@@ -86,7 +92,7 @@
    "pendente": [
     "Concluir as aulas restantes",
     "Provas abrem sozinhas ao concluir as 8 aulas; pedir print ao terminar (o progresso fica só no celular dele)",
-    "Hoje, seg 2/11: áudios às 13h30, 16h e 17h30 (Secretária envia); resposta das 17h30 vai ao bot até 18h",
+    "Hoje, seg 2/11: áudios às 16h e 17h30 (13h30 já enviado) (Secretária envia); resposta das 17h30 vai ao bot até 18h",
     "Painel do Lorenzo: 1ª atualização automática hoje às 18h"
    ],
    "link": {
@@ -219,6 +225,7 @@
   }
  ],
  "DECISOES": [
+  "Gabriel: seguir só com QR Code (o não oficial pode banir o número) ou manter o 360dialog em paralelo até a Meta aprovar?",
   "Postiz: a cobrança de US$29 foi recusada em 1/11; atualizar o cartão antes do fim do teste em 8/11",
   "Financeiro: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
   "Financeiro: confirmar Grok Ultra US$260/mês e o dia da renovação",
@@ -240,6 +247,7 @@
   "Trocar o nome do perfil no Instagram"
  ],
  "DECISOES_BOT": [
+  "dev",
   "geral",
   "fin",
   "fin",
@@ -261,19 +269,21 @@
   "mkt"
  ],
  "TICKER": [
+  "MKT ▸ post do prédio aprovado, publicando no feed",
+  "DEV ▸ Gabriel trocando para QR Code; Darth decide o caminho",
+  "LOR ▸ áudio das 13h30 enviado",
   "MKT ▸ calendário 2–11/11 aprovado (20 posts)",
   "MKT ▸ estático do Dia 1 no ar às 12h06",
   "MKT ▸ Reel do Dia 1 às 19h",
   "FIN ▸ US$319,90 aguardando confirmação",
   "FIN ▸ Postiz: cobrança de US$29 recusada",
-  "DEV ▸ Gabriel sem sinal; cobrança ~12h",
   "LOR ▸ mensagens diárias liberadas pelo Rodrigo",
-  "LOR ▸ áudios 13h30, 16h e 17h30",
   "CONS ▸ panorama de mercado em andamento",
   "COM ▸ 1ª lista de prospecção em montagem",
   "CFG ▸ Crono parada no WhatsApp",
   "SEC ▸ botão atualizar ligado via GitHub",
-  "SEC ▸ Prédio às 9h, 14h e 19h"
+  "SEC ▸ Prédio às 9h, 14h e 19h",
+  "LOR ▸ áudios 16h e 17h30"
  ],
  "ARQ": [
   {
@@ -482,7 +492,7 @@
    },
    {
     "d": "02/nov/2026",
-    "t": "Rodrigo liberou (10h37) as mensagens diárias do Lorenzo sem precisar perguntar. Áudios da Raquel de hoje prontos para 13h30, 16h e 17h30. Painel atualiza às 18h."
+    "t": "Rodrigo liberou (10h37) as mensagens diárias do Lorenzo sem precisar perguntar. Áudios da Raquel de hoje prontos para 13h30, 16h e 17h30. Painel atualiza às 18h. Áudio das 13h30 enviado com o link nexorbrain.com."
    }
   ]
  },

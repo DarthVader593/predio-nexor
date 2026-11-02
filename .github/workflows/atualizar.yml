@@ -1,0 +1,34 @@
+name: Atualizar Predio
+on:
+  workflow_dispatch:
+    inputs:
+      origem:
+        description: origem
+        required: false
+        default: app
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avisar Secretaria
+        env:
+          URL: ${{ secrets.WEBHOOK_URL }}
+          KEY: ${{ secrets.WEBHOOK_KEY }}
+        run: |
+          curl -sS -f -X POST "$URL" -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" -d "{\"origem\":\"app-github\"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

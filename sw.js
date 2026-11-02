@@ -1,4 +1,4 @@
-const C="nexor-v2-202611021448";const A=["./","index.html","data.json","manifest.webmanifest","icon-180.png","icon-512.png"];
+const C="nexor-v2-202611021222";const A=["./","index.html","data.json","manifest.webmanifest","icon-180.png","icon-512.png"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(A)))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(u.origin!==location.origin||e.request.method!=="GET")return;

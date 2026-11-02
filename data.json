@@ -6,7 +6,7 @@
    "id": "adev",
    "ag": "267e2209-745b-4d26-9cc1-1d737c24d12b",
    "nome": "Assessor Dev",
-   "papel": "Dev pessoal do Darth · analisa e reescreve códigos, avalia sistemas e fluxos · reporta à Secretária",
+   "papel": "Dev pessoal do Darth · analisa e reescreve códigos, avalia sistemas e fluxos · reporta à Nexa",
    "status": "aguardando",
    "criado": "2/11",
    "gerente": "sec",
@@ -92,7 +92,7 @@
    "pendente": [
     "Concluir as aulas restantes",
     "Provas abrem sozinhas ao concluir as 8 aulas; pedir print ao terminar (o progresso fica só no celular dele)",
-    "Hoje, seg 2/11: áudios às 16h e 17h30 (13h30 já enviado) (Secretária envia); resposta das 17h30 vai ao bot até 18h",
+    "Hoje, seg 2/11: áudios às 16h e 17h30 (13h30 já enviado) (Nexa envia); resposta das 17h30 vai ao bot até 18h",
     "Painel do Lorenzo: 1ª atualização automática hoje às 18h"
    ],
    "link": {
@@ -143,7 +143,7 @@
    "criado": "2/11",
    "entregas": [
     "12h52: Painel Financeiro – Nexor montado (data, fornecedor, descrição, valor, moeda, recorrência, vencimento, fonte, status)",
-    "Total levantado: US$319,90, tudo aguardando confirmação (US$29,00 achados em e-mail + US$290,90 informados pela Secretária)",
+    "Total levantado: US$319,90, tudo aguardando confirmação (US$29,00 achados em e-mail + US$290,90 informados pela Nexa)",
     "Achou no Gmail: cobrança de US$29 do Postiz RECUSADA em 1/11 (Stripe)",
     "Escopo ajustado pelo Darth: só custos da Nexor; ElevenLabs classificada como custo da Nexor",
     "Nada lançado no controle sem o ok do Darth",
@@ -161,7 +161,7 @@
    "id": "cfg",
    "ag": "914d0f9e-f281-443d-b265-e3747a3b4ca4",
    "nome": "Nexor Configurador de Lojas",
-   "papel": "Onboarding e configuração dos agentes de cada loja · reporta à Secretária",
+   "papel": "Onboarding e configuração dos agentes de cada loja · reporta à Nexa",
    "status": "aguardando",
    "entregas": [
     "Lembrete das 10h06 enviado: Crono segue parada no login do 360dialog e do Facebook da loja",
@@ -179,7 +179,7 @@
    "id": "jur",
    "ag": "7fd5324c-c230-49cd-901e-b31ef5d9f66e",
    "nome": "Nexor Jurídico",
-   "papel": "Contratos, termos de uso, LGPD e registro de marca · reporta à Secretária",
+   "papel": "Contratos, termos de uso, LGPD e registro de marca · reporta à Nexa",
    "status": "ativo",
    "criado": "2/11",
    "gerente": "sec",
@@ -193,7 +193,7 @@
    "id": "sup",
    "ag": "40c90ce8-f228-4c48-a76b-3d37db2f4275",
    "nome": "Nexor Suporte aos Clientes",
-   "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Secretária",
+   "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Nexa",
    "status": "aguardando",
    "criado": "2/11",
    "gerente": "sec",
@@ -210,7 +210,7 @@
    "id": "com",
    "ag": "7ede3518-d940-4bf9-9068-60ad933ad0c5",
    "nome": "Nexor Comercial",
-   "papel": "Prospecção, funil de vendas e propostas · reporta à Secretária",
+   "papel": "Prospecção, funil de vendas e propostas · reporta à Nexa",
    "status": "ativo",
    "criado": "2/11",
    "gerente": "sec",
@@ -231,7 +231,7 @@
   "Financeiro: confirmar Grok Ultra US$260/mês e o dia da renovação",
   "Financeiro: valor e data de cobrança da ElevenLabs e do Adspirer",
   "Financeiro: HeyGen, Midjourney e pdfFiller são da Nexor?",
-  "Apagar do chat da Secretária a senha do iCloud e a chave do webhook, e trocar a senha do iCloud",
+  "Apagar do chat da Nexa a senha do iCloud e a chave do webhook, e trocar a senha do iCloud",
   "Consultor: qual é hoje o maior desafio da Nexor?",
   "Assessor Dev: por onde começar (repositório, código ou fluxo)?",
   "Suporte: por qual canal chegam os chamados da VS Jóias?",
@@ -321,7 +321,7 @@
   "data": "Domingo, 1 de novembro de 2026",
   "bots": [
    {
-    "b": "Secretária - Darth",
+    "b": "Nexa",
     "t": "Cobrou o Gabriel às 10h38 (áudio Raquel); corrigiu os avisos falsos do Lorenzo no Cérebro; pesquisou ligações de WhatsApp com IA (recomendação: API oficial da Meta + ElevenLabs); mandou ao Lorenzo o áudio e o link às 18h01 e acompanha ele até 20h30."
    },
    {
@@ -355,7 +355,7 @@
   "Resumo diário dos bots · 19:00 (horário de Brasília)",
   "Checagem diária do iCloud Mail",
   "Atualização do Prédio e do app · 9h, 14h e 19h",
-  "Atualização na hora pelo botão do app (GitHub → Secretária)",
+  "Atualização na hora pelo botão do app (GitHub → Nexa)",
   "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
   "Gabriel no WhatsApp · a cada 2 horas, 8h–22h",
   "Instagram Nexor · estático ~12h e Reel ~19h (calendário 2–11/11)",
@@ -517,7 +517,7 @@
   },
   {
    "n": "22",
-   "setor": "Gestão · Secretária",
+   "setor": "Gestão · Nexa",
    "c": "#3b82f6",
    "bots": [
     "sec"

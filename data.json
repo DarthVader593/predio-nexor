@@ -43,7 +43,6 @@
     "Amanhã ~9h: mandar ao Darth as peças dos dias 3 e 4 para aprovar",
     "Fixar o Reel institucional no topo do perfil pelo app do celular (pela web não dá)",
     "Darth escolher quais estáticos e vídeos vão para anúncio",
-    "Ligar o Instagram @nexorbrain no Postiz (hoje sem nenhuma rede da Nexor)",
     "Ajustes da landing (bloqueiam os anúncios)",
     "Trocar o nome do perfil para “Nexor, IA que vende no WhatsApp”"
    ],
@@ -885,90 +884,94 @@
  "MKT": {
   "instagram": "@nexorbrain",
   "site": "nexorbrain.com",
-  "atualizado_em": "02/11 16:04",
-  "fonte": "calendário 10 dias (Postiz sem posts)",
+  "atualizado_em": "02/11 16:09",
+  "fonte": "calendário do Nexor Marketing + registro de publicações",
   "proximas": [
    {
     "data": "02/11 19h",
     "formato": "Reel",
     "tema": "Apresentação: o cérebro central da Nexor",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "03/11 12h",
     "formato": "Estático",
     "tema": "Muitos agentes, um cérebro",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "03/11 19h",
     "formato": "Reel",
     "tema": "Vendas 24h no WhatsApp",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "04/11 12h30",
     "formato": "Reel",
     "tema": "O caminho do cliente pelo cérebro",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "04/11 19h",
     "formato": "Estático",
     "tema": "O peso do gestor",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "05/11 12h",
     "formato": "Estático",
     "tema": "Objeção: 'IA não entende meu cliente'",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "05/11 19h",
     "formato": "Reel",
     "tema": "Nexor Pay: cobrar dentro da conversa",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "06/11 12h",
     "formato": "Estático",
     "tema": "Preço: a regra em um card",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "06/11 18h30",
     "formato": "Reel",
     "tema": "Preço transparente",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    },
    {
     "data": "07/11 10h",
     "formato": "Estático",
     "tema": "Secretária de presente",
-    "status": "planejado",
-    "fonte": "calendário"
+    "status": "planejado"
    }
   ],
-  "publicadas": [],
-  "vencidas_sem_confirmacao": [
+  "publicadas": [
+   {
+    "data": "01/11",
+    "formato": "Reel",
+    "tema": "Institucional v2",
+    "link": "",
+    "status": "publicado"
+   },
    {
     "data": "02/11 12h",
     "formato": "Estático",
     "tema": "Sistema único: agentes + CRM + ERP + Nexor Pay",
-    "status": "planejado",
-    "fonte": "calendário"
+    "link": "",
+    "status": "publicado"
+   },
+   {
+    "data": "02/11",
+    "formato": "Post feed (extra)",
+    "tema": "Cada andar da sua empresa, movido por um cérebro",
+    "link": "https://www.instagram.com/nexorbrain/p/DfPz5xsp35_/",
+    "status": "publicado"
    }
   ],
-  "obs": "Status 'planejado' = só no calendário, não agendado no Postiz. Confirmar publicação com a Nexa."
+  "vencidas_sem_confirmacao": [],
+  "obs": "Quem publica é o bot Nexor Marketing, direto no Instagram. 'planejado' = previsto no calendário."
  }
 }

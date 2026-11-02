@@ -144,6 +144,38 @@
   "SEC ▸ Prédio às 9h, 14h e 19h",
   "SEC ▸ resumo dos bots às 19:00"
  ],
+ "ARQ": [
+  {
+   "t": "Relatório da landing page para o dev",
+   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/766737bf-8fed-41f9-b9ac-36a7bccadc47"
+  },
+  {
+   "t": "Plano de lançamento: marketing, tráfego e vendas",
+   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/2577808a-8c5c-4685-9f34-ad3aaf6e5687"
+  },
+  {
+   "t": "Painel do Lorenzo – Nexor",
+   "u": "https://cursor.com/canvas/store-3c4678b2-82f0-4d04-8b32-417d4d78b34f/10e173d5-a9b1-4564-9c63-2153e63ff76f"
+  },
+  {
+   "t": "Universidade Nexor do Lorenzo",
+   "u": "https://minha-jornada-na-nexor-4hde.pages.grok.bot/"
+  },
+  {
+   "t": "Site de onboarding das lojas",
+   "u": "https://bem-vindo-a-nexor-onboarding-ruhb.pages.grok.bot/"
+  },
+  {
+   "t": "Site nexorbrain.com",
+   "u": "https://nexorbrain.com"
+  },
+  {
+   "t": "Instagram @nexorbrain",
+   "u": "https://instagram.com/nexorbrain"
+  }
+ ],
+ "RESUMO_ID": "2026-11-01",
+ "LORENZO_LAST_UPDATE": "2026-10-31T22:43",
  "RESUMO": {
   "data": "Domingo, 1 de novembro de 2026",
   "bots": [
@@ -188,6 +220,135 @@
   "Lorenzo no WhatsApp · a cada 10 min, seg–sex 13h–17h50",
   "Postiz · lembrete do fim do teste em 7/11 às 10h"
  ],
+ "ONB": [
+  {
+   "id": "vs",
+   "nome": "VS Jóias",
+   "seg": "Cliente Valéria de Sordi",
+   "st": {
+    "1": "atencao",
+    "2": "pendente",
+    "3": "atencao",
+    "4": "atencao",
+    "5": "atencao",
+    "6": "atencao",
+    "7": "pendente",
+    "8": "pendente",
+    "9": "pendente"
+   },
+   "notas": {
+    "1": "Perfil está vazio no painel.",
+    "3": "Política ainda é da Autolot USA. Precisa ser trocada pela política da VS Jóias.",
+    "4": "Persona está vazia no painel.",
+    "5": "Base de conhecimento está vazia no painel.",
+    "6": "WhatsApp ainda é o da Autolot USA. Precisa ser trocado pelo número da VS Jóias."
+   },
+   "alerta": "O período de teste termina em cerca de 5 dias. Faltam os dados reais da loja."
+  },
+  {
+   "id": "crono",
+   "nome": "Crono Jóias",
+   "seg": "Dados ainda não recebidos",
+   "st": {
+    "1": "pendente",
+    "2": "pendente",
+    "3": "pendente",
+    "4": "pendente",
+    "5": "pendente",
+    "6": "pendente",
+    "7": "pendente",
+    "8": "pendente",
+    "9": "pendente"
+   },
+   "notas": {}
+  },
+  {
+   "id": "kap",
+   "nome": "KAP Auto Sales",
+   "seg": "Dados ainda não recebidos",
+   "st": {
+    "1": "pendente",
+    "2": "pendente",
+    "3": "pendente",
+    "4": "pendente",
+    "5": "pendente",
+    "6": "pendente",
+    "7": "pendente",
+    "8": "pendente",
+    "9": "pendente"
+   },
+   "notas": {}
+  },
+  {
+   "id": "moveza",
+   "nome": "Moveza",
+   "seg": "Dados ainda não recebidos",
+   "st": {
+    "1": "pendente",
+    "2": "pendente",
+    "3": "pendente",
+    "4": "pendente",
+    "5": "pendente",
+    "6": "pendente",
+    "7": "pendente",
+    "8": "pendente",
+    "9": "pendente"
+   },
+   "notas": {}
+  },
+  {
+   "id": "motors",
+   "nome": "Nexor Motors",
+   "seg": "Dados ainda não recebidos",
+   "st": {
+    "1": "pendente",
+    "2": "pendente",
+    "3": "pendente",
+    "4": "pendente",
+    "5": "pendente",
+    "6": "pendente",
+    "7": "pendente",
+    "8": "pendente",
+    "9": "pendente"
+   },
+   "notas": {}
+  }
+ ],
+ "LOR": {
+  "status": "Todas as 8 aulas liberadas · provas abrem ao concluir as 8 aulas",
+  "horario": "13h30–17h30, segunda a sexta",
+  "pessoa": "Lorenzo Magalhaes Filhote, 17, head de relacionamento",
+  "tarefas": [
+   {
+    "f": "Agora",
+    "t": [
+     "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
+     "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
+     "Mandar print ao terminar cada aula e as provas (o progresso fica salvo só no celular dele)",
+     "Procurar o Rodrigo para revisar respostas, para a VS Jóias e em casos difíceis com cliente"
+    ]
+   }
+  ],
+  "metas": [
+   "Ninguém sem resposta",
+   "Clientes novos configurados em até 7 dias",
+   "Resumo semanal toda sexta"
+  ],
+  "hist": [
+   {
+    "d": "31/out/2026",
+    "t": "Apresentação pelo WhatsApp. Lorenzo disse que se sente à vontade com atender e cuidar dos clientes. Foco inicial em atendimento, parcerias depois. Pediu pro Darth ligar."
+   },
+   {
+    "d": "31/out/2026",
+    "t": "Rodrigo aprovou a Universidade Nexor e as regras: a prova não pode ser refeita; dúvidas e casos difíceis vão para o Rodrigo."
+   },
+   {
+    "d": "01/nov/2026",
+    "t": "Todas as aulas liberadas às 17h58. À noite fez a aula 1 e acertou tudo. Teve estudo extra até 20h30. Rodrigo decidiu: as 2 provas abrem quando ele concluir as 8 aulas (painel ajustado às 19h01)."
+   }
+  ]
+ },
  "ANDARES": [
   {
    "n": "COB",
@@ -401,44 +562,6 @@
    ]
   }
  ],
- "EXTRA": {
-  "ceo": {
-   "id": "ceo",
-   "ag": "",
-   "nome": "Rodrigo · Darth",
-   "papel": "CEO · recebe os relatórios da Secretária e decide",
-   "status": "online",
-   "entregas": [],
-   "pendente": [
-    "Fixar o Reel institucional no topo do @nexorbrain pelo celular",
-    "Apagar do chat do bot VS Jóias a senha do Facebook da Valéria e a chave do Postiz",
-    "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
-    "VS Jóias: aprovar criativos, orçamento e forma de pagamento na Nexor Ads",
-    "Enviar os dados reais da VS Jóias",
-    "Crono Jóias: fazer o login no 360dialog e no Facebook da loja",
-    "Aprovar os ajustes da landing page",
-    "Confirmar quais são os 4 agentes do plano",
-    "Alinhar preço com o CTO (arquivo diz R$ 1.999; correto R$ 1.499)",
-    "Trocar o nome do perfil no Instagram",
-    "Postiz: teste vira cobrança de US$ 29 em 8/11 (lembrete dia 7)"
-   ]
-  },
-  "sec": {
-   "id": "sec",
-   "ag": "07b5e417-15a0-4aeb-8293-deff30a6b221",
-   "nome": "Secretária - Darth",
-   "papel": "Gestora do prédio · todos os bots reportam a ela, ela reporta ao CEO",
-   "status": "trabalhando",
-   "entregas": [
-    "Cobrou o Gabriel às 10h38 (áudio Raquel); corrigiu os avisos falsos do Lorenzo no Cérebro; pesquisou ligações de WhatsApp com IA (recomendação: API oficial da Meta + ElevenLabs); mandou ao Lorenzo o áudio e o link às 18h01 e acompanha ele até 20h30."
-   ],
-   "pendente": [
-    "Adspirer: a conta de anúncios da VS (2255692508334441) não aparece; o Rodrigo autorizou usar a Nexor Ads se não der certo",
-    "Gabriel ainda não comentou o PDF da landing nem a stack",
-    "Crono Jóias parada no login do 360dialog e do Facebook da loja"
-   ]
-  }
- },
  "ETAPAS": [
   {
    "n": 1,
@@ -536,134 +659,5 @@
     "Acompanhamento da primeira semana"
    ]
   }
- ],
- "ONB": [
-  {
-   "id": "vs",
-   "nome": "VS Jóias",
-   "seg": "Cliente Valéria de Sordi",
-   "st": {
-    "1": "atencao",
-    "2": "pendente",
-    "3": "atencao",
-    "4": "atencao",
-    "5": "atencao",
-    "6": "atencao",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {
-    "1": "Perfil está vazio no painel.",
-    "3": "Política ainda é da Autolot USA. Precisa ser trocada pela política da VS Jóias.",
-    "4": "Persona está vazia no painel.",
-    "5": "Base de conhecimento está vazia no painel.",
-    "6": "WhatsApp ainda é o da Autolot USA. Precisa ser trocado pelo número da VS Jóias."
-   },
-   "alerta": "O período de teste termina em cerca de 5 dias. Faltam os dados reais da loja."
-  },
-  {
-   "id": "crono",
-   "nome": "Crono Jóias",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "kap",
-   "nome": "KAP Auto Sales",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "moveza",
-   "nome": "Moveza",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  },
-  {
-   "id": "motors",
-   "nome": "Nexor Motors",
-   "seg": "Dados ainda não recebidos",
-   "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
-    "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
-   },
-   "notas": {}
-  }
- ],
- "LOR": {
-  "status": "Todas as 8 aulas liberadas · provas abrem ao concluir as 8 aulas",
-  "horario": "13h30–17h30, segunda a sexta",
-  "pessoa": "Lorenzo Magalhaes Filhote, 17, head de relacionamento",
-  "tarefas": [
-   {
-    "f": "Agora",
-    "t": [
-     "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
-     "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
-     "Mandar print ao terminar cada aula e as provas (o progresso fica salvo só no celular dele)",
-     "Procurar o Rodrigo para revisar respostas, para a VS Jóias e em casos difíceis com cliente"
-    ]
-   }
-  ],
-  "metas": [
-   "Ninguém sem resposta",
-   "Clientes novos configurados em até 7 dias",
-   "Resumo semanal toda sexta"
-  ],
-  "hist": [
-   {
-    "d": "31/out/2026",
-    "t": "Apresentação pelo WhatsApp. Lorenzo disse que se sente à vontade com atender e cuidar dos clientes. Foco inicial em atendimento, parcerias depois. Pediu pro Darth ligar."
-   },
-   {
-    "d": "31/out/2026",
-    "t": "Rodrigo aprovou a Universidade Nexor e as regras: a prova não pode ser refeita; dúvidas e casos difíceis vão para o Rodrigo."
-   },
-   {
-    "d": "01/nov/2026",
-    "t": "Todas as aulas liberadas às 17h58. À noite fez a aula 1 e acertou tudo. Teve estudo extra até 20h30. Rodrigo decidiu: as 2 provas abrem quando ele concluir as 8 aulas (painel ajustado às 19h01)."
-   }
-  ]
- }
+ ]
 }

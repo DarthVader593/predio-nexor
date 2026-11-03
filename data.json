@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "terça, 3/11 às 14h07",
+ "ATUALIZADO": "terça, 3/11 às 17h00",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -26,6 +26,7 @@
    "papel": "Marketing, vendas e tráfego",
    "status": "aguardando",
    "entregas": [
+    "3/11 15h36: auditoria sem falhas; publicações da @nexorbrain seguem pausadas",
     "3/11 9h21: peças dos dias 3 e 4 prontas e enviadas ao Darth para aprovar (Dia 3: Reel do caminho do cliente pelo cérebro + estático “Você não precisa carregar a loja inteira nas costas”; Dia 4: estático “a IA vai entender o cliente da loja?” + Reel do Nexor Pay “Fechou? Já cobrou”)",
     "3/11 9h21: avisou que o estático do Dia 2 ainda tem “Não são 4 agentes” e sugeriu “Um time inteiro de IA. Um só cérebro.”",
     "3/11 10h31: auditoria sem falhas; nada publicado, a @nexorbrain segue desativada",
@@ -34,10 +35,7 @@
     "2/11 19h57: Reel do Dia 1 publicado no @nexorbrain depois de voltar a conta certa: https://www.instagram.com/nexorbrain/reel/DfQbdJgJXS1/",
     "2/11: post do feed do prédio (“Cada andar da sua empresa, movido por um cérebro.”) publicado no @nexorbrain: https://www.instagram.com/nexorbrain/p/DfPz5xsp35_/",
     "13h40–14h05: criativos do cérebro com o prédio (feed + 3 stories) em 3 versões; a última é um arranha-céu de vidro realista com os agentes nos andares",
-    "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)",
-    "2/11 9h15: Darth aprovou o calendário do Instagram de 2 a 11/11 (1 estático no feed + 1 Reel por dia, 20 posts)",
-    "9h41: Darth liberou postar os dias 1 e 2 sem perguntar de novo",
-    "12h06: estático do Dia 1 “Um cérebro. Tudo conectado.” no ar no @nexorbrain (4:5, prévia e legenda conferidas)"
+    "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)"
    ],
    "pendente": [
     "Darth decidir o caminho da @nexorbrain: às 9h11 disse que não chegou nenhum e-mail de recurso; a Nexa sugeriu criar conta nova com e-mail e número novos, sem vínculo com a Motors",
@@ -58,6 +56,8 @@
    "papel": "Acompanhamento do dev Gabriel",
    "status": "resposta",
    "entregas": [
+    "3/11 15h36: checagens rodaram às 8h, 10h, 12h e 14h; próxima ~16h, antes do onboarding das 17h",
+    "3/11 14h08: Rodrigo conversou direto com o Gabriel sobre o primeiro cliente (Cronojoias); setup marcado para ~17h, Darth presencial e devs por vídeo",
     "3/11 10h31: checagens de hoje rodaram às 8h e 10h12; Darth avisado do QR Code; próxima checagem ~12h",
     "3/11 8h02: Gabriel confirmou o QR Code (respondeu “Sim” às 3h50) e às 5h50 mandou o convite de acesso ao painel do Nexor OS; ainda não falou do 360dialog",
     "2/11 21h39: todas as checagens do dia rodaram, a última às 20h05",
@@ -65,9 +65,7 @@
     "14h09: mensagem de texto ao Gabriel pedindo que avise quando o QR Code estiver pronto (Darth será avisado por texto)",
     "~12h de 2/11: áudio educado ao Gabriel cobrando QR Code, IA da Nexor e 360dialog (entregue no WhatsApp)",
     "Gabriel sem sinal desde a noite de 1/11",
-    "Por volta das 17h o Gabriel mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider); depois o cliente conecta o número por QR code (coexistência)",
-    "16h10: nova cobrança enviada, depois de ele responder a primeira só com brincadeiras",
-    "Cobrança enviada ao Gabriel às 10h38, por áudio: ajustes da landing, base do projeto e 360dialog"
+    "Por volta das 17h o Gabriel mandou 2 áudios: fica no 360dialog até a Meta aprovar o app (Tech Provider); depois o cliente conecta o número por QR code (coexistência)"
    ],
    "pendente": [
     "Darth testar a conexão por QR Code e abrir o convite do painel do Nexor OS que o Gabriel mandou",
@@ -81,8 +79,11 @@
    "ag": "70f408fa-91fc-4b80-a26b-0211bf9a1604",
    "nome": "Lorenzo – Acompanhamento",
    "papel": "Rotina e tarefas do Lorenzo (17 anos)",
-   "status": "trabalhando",
+   "status": "aguardando",
    "entregas": [
+    "3/11 16h41: Universidade e Painel do Lorenzo atualizados: as 4h da tarde (13h30–17h30) passaram para hoje à noite no banco de horas; saldo segue 0 até ele cumprir",
+    "3/11 16h28: Lorenzo disse que combinou com o Rodrigo estudar à noite nas terças (tem compromisso à tarde); Nexa aceitou só por hoje e pediu o horário de início",
+    "3/11 15h36: admitiu que não passou as mensagens das 13h30; mandou à Nexa os textos das 16h e 17h30",
     "3/11 10h31: auditoria sem falhas; o painel das 18h de 2/11 tinha sido recuperado às 18h35; ainda sem resposta do Lorenzo ao áudio das 18h56",
     "2/11 18h56: áudio pedindo o relato da tarde enviado ao Lorenzo no WhatsApp (ainda sem resposta)",
     "2/11 18h35: os dois painéis atualizados",
@@ -90,16 +91,11 @@
     "~15h57: Lorenzo reagiu ao vídeo e perguntou se o Rodrigo posta sem falar com o marketing (repassado ao Rodrigo)",
     "Áudios das 16h e 17h30 não saíram (rotinas pausadas); WhatsApp ficou desconectado de ~17h30 a 17h55",
     "13h30: áudio da Raquel e link nexorbrain.com enviados ao Lorenzo no WhatsApp",
-    "10h37 de 2/11: Rodrigo liberou as mensagens diárias do Lorenzo sem perguntar antes",
-    "As 8 aulas da Universidade Nexor liberadas às 17h58 de 1/11",
-    "Lorenzo fez a aula 1 à noite e acertou tudo"
+    "10h37 de 2/11: Rodrigo liberou as mensagens diárias do Lorenzo sem perguntar antes"
    ],
    "pendente": [
-    "Lorenzo responder ao áudio das 18h56 de 2/11 com o relato da tarde",
-    "Lorenzo concluir a tarefa “conhecer a Nexor” (em andamento, conclusão não confirmada)",
-    "Lorenzo mandar o relatório de horas e clientes do dia (não veio em 2/11)",
-    "Concluir as aulas restantes; as provas abrem sozinhas ao concluir as 8 aulas",
-    "Pedir print ao terminar cada aula (o progresso fica só no celular dele)"
+    "Darth confirmar se vale o combinado fixo de estudar à noite nas terças",
+    "Lorenzo dizer o horário de início hoje à noite e mandar o ok ao abrir a aula"
    ],
    "link": {
     "t": "Painel do Lorenzo",
@@ -233,6 +229,7 @@
   }
  ],
  "DECISOES": [
+  "Lorenzo: confirmar o combinado de estudar à noite nas terças (ele disse às 16h28 que combinou com você)",
   "@nexorbrain perdida (às 9h11 o Darth disse que não chegou e-mail de recurso): criar a conta nova da Nexor com e-mail e número novos, sem vínculo com a Motors?",
   "Marketing: aprovar as peças dos dias 3 e 4 e trocar a frase do estático do Dia 2 (“Não são 4 agentes” → “Um time inteiro de IA. Um só cérebro.”)",
   "Gabriel: QR Code confirmado em 3/11; testar a conexão, abrir o convite do painel do Nexor OS e decidir se mantém o 360dialog em paralelo",
@@ -277,15 +274,15 @@
   "geral"
  ],
  "TICKER": [
-  "NEXA ▸ cérebro do app pronto para o onboarding da Cronojoias",
-  "NEXA ▸ cobrança de estudo enviada ao Lorenzo às 13h54",
+  "NEXA ▸ onboarding da Cronojoias às 17h; cérebro pronto",
+  "LOR ▸ 16h28: combinou estudar terça à noite (aguarda o Darth)",
+  "LOR ▸ horas da tarde passaram para a noite no banco de horas",
+  "LAB ▸ banco de ideias iniciado: fazenda de celulares e arbitragem com multiagentes",
+  "REPASSES ▸ buscando a melhor oferta no AutoAvaliar",
   "MKT ▸ peças dos dias 3 e 4 aguardando aprovação",
   "MKT ▸ @nexorbrain desativada; publicações pausadas",
-  "DEV ▸ checagens do Gabriel às 8h e 10h12",
-  "LOR ▸ sem resposta ao áudio das 18h56",
-  "NEXA ▸ iCloud Mail deslogou; checagem não rodou",
+  "DEV ▸ checagens do Gabriel às 8h, 10h, 12h e 14h",
   "FIN ▸ US$290,90 aguardando confirmação",
-  "CFG ▸ Crono parada no login do WhatsApp",
   "SEC ▸ Prédio às 9h, 14h e 19h"
  ],
  "ARQ": [
@@ -325,7 +322,7 @@
   "bots": [
    {
     "b": "Nexa",
-    "t": "Às 9h11 sugeriu ao Darth criar uma conta nova da Nexor no Instagram, sem vínculo com a Motors. Às 11h16 avisou que o iCloud Mail deslogou e a checagem do dia não rodou. Às 13h51 deixou o cérebro do app pronto para dar as boas-vindas ao Geovane no onboarding da Cronojoias, chamando o dono de Rodrigo. Às 13h54 mandou ao Lorenzo a cobrança para voltar aos estudos; até 13h55 a mensagem não tinha sido entregue."
+    "t": "Às 9h11 sugeriu ao Darth criar uma conta nova da Nexor no Instagram, sem vínculo com a Motors. Às 11h16 avisou que o iCloud Mail deslogou e a checagem do dia não rodou. Às 13h51 deixou o cérebro do app pronto para dar as boas-vindas ao Geovane no onboarding da Cronojoias, chamando o dono de Rodrigo. Às 13h54 mandou ao Lorenzo a cobrança para voltar aos estudos; até 13h55 a mensagem não tinha sido entregue. Às 15h21 e 15h25 cobrou o Lorenzo de novo (texto e áudio). Às 16h28 o Lorenzo respondeu que combinou com o Rodrigo estudar à noite nas terças; a Nexa aceitou por hoje e passou as horas da tarde para a noite. Começou o banco de ideias do Darth Lab com os reels que o Darth manda."
    },
    {
     "b": "Nexor Marketing",
@@ -333,11 +330,11 @@
    },
    {
     "b": "Nexor Devs – Gabriel",
-    "t": "Checagens rodaram às 8h e 10h12. QR Code confirmado e Darth avisado. Gabriel ainda não falou do 360dialog."
+    "t": "Checagens rodaram às 8h e 10h12. QR Code confirmado e Darth avisado. Gabriel ainda não falou do 360dialog. Checagens também às 12h e 14h; setup do primeiro cliente (Cronojoias) às 17h, com o Darth presencial."
    },
    {
     "b": "Lorenzo – Acompanhamento",
-    "t": "Auditoria das 10h31 sem falhas. Lorenzo ainda não respondeu ao áudio das 18h56 de ontem."
+    "t": "Às 15h36 admitiu que não passou as mensagens das 13h30 e mandou os textos das 16h e 17h30. Às 16h41 atualizou a Universidade e o Painel: as 4h da tarde ficaram para hoje à noite; o combinado fixo das terças aguarda a confirmação do Darth."
    },
    {
     "b": "Financeiro",
@@ -345,7 +342,7 @@
    },
    {
     "b": "Darth Lab",
-    "t": "Auditoria das 10h31 sem falhas."
+    "t": "Às 15h41 abriu o banco de ideias com os reels do Darth. Tese inicial: robô com vários agentes que acha carros abaixo da FIPE para a OFT e a Oferta Repasses, com um agente de risco que veta compras ruins. Fazenda de celulares (Profit Phones/BoxPhone) entrou só como referência de mercado, com alerta de risco de banimento."
    },
    {
     "b": "VS Jóias",
@@ -358,12 +355,16 @@
    {
     "b": "Nexor Configurador de Lojas",
     "t": "Auditoria das 10h31 sem falhas. A Crono segue parada no login do 360dialog e do Facebook da loja."
+   },
+   {
+    "b": "Oferta Repasses",
+    "t": "Às 16h52, em ligação com o Darth, começou a buscar a melhor oferta no AutoAvaliar (com laudo) para montar no formato do exemplo da Land Rover."
    }
   ],
   "travado": [
    "@nexorbrain desativada e sem e-mail de recurso; falta o Darth decidir pela conta nova",
    "Crono Jóias parada no login do 360dialog e do Facebook da loja",
-   "Lorenzo ainda não respondeu ao áudio das 18h56 de 2/11",
+   "Lorenzo sem check-in à tarde; disse que estuda à noite nas terças (aguarda o Darth confirmar)",
    "iCloud Mail deslogado; checagem diária parada",
    "Gabriel ainda não falou do 360dialog"
   ]
@@ -482,7 +483,8 @@
    {
     "f": "Agora",
     "t": [
-     "Responder ao áudio das 18h56 de 2/11 com o relato da tarde",
+     "Dizer o horário de início hoje à noite e mandar o ok ao abrir a aula",
+     "Cumprir à noite as 4h da tarde (13h30–17h30) que ficaram no banco de horas",
      "Concluir a tarefa conhecer a Nexor (em andamento, conclusão não confirmada)",
      "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
      "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
@@ -516,6 +518,10 @@
    {
     "d": "03/nov/2026",
     "t": "Auditoria das 10h31: tudo em dia; ainda sem resposta ao áudio das 18h56 de 2/11."
+   },
+   {
+    "d": "3/nov/2026",
+    "t": "Sem check-in à tarde (cobranças às 13h54, 15h21 e áudio às 15h25). Às 16h28 disse que combinou com o Rodrigo estudar à noite nas terças; horas da tarde passaram para a noite. Combinado fixo aguarda o Darth."
    }
   ]
  },

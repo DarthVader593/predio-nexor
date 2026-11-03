@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "segunda, 2/11 às 19h06",
+ "ATUALIZADO": "terça, 3/11 às 9h09",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -24,8 +24,11 @@
    "ag": "56ba7659-0115-4d44-be9f-3feee982ae51",
    "nome": "Nexor Marketing",
    "papel": "Marketing, vendas e tráfego",
-   "status": "trabalhando",
+   "status": "aguardando",
    "entregas": [
+    "3/11 00h21: pausou todas as publicações da @nexorbrain depois que o Instagram desativou a conta (os posts do Dia 2, 12h e 19h, não vão sair); a rotina das 9h só prepara os criativos dos dias 3 e 4",
+    "2/11 21h54: regra do Darth anotada; usa só a @nexorbrain e nunca troca para a @nexormotorsimports",
+    "2/11 19h57: Reel do Dia 1 publicado no @nexorbrain depois de voltar a conta certa: https://www.instagram.com/nexorbrain/reel/DfQbdJgJXS1/",
     "2/11: post do feed do prédio (“Cada andar da sua empresa, movido por um cérebro.”) publicado no @nexorbrain: https://www.instagram.com/nexorbrain/p/DfPz5xsp35_/",
     "13h40–14h05: criativos do cérebro com o prédio (feed + 3 stories) em 3 versões; a última é um arranha-céu de vidro realista com os agentes nos andares",
     "14h06: Darth aprovou o 1º criativo do prédio para o feed; bot ajustando, escrevendo a legenda e publicando (com prévia conferida)",
@@ -38,13 +41,11 @@
     "6 stories de interação feitos; Darth postou e o bot colocou todos nos destaques (Planos, Agentes, Como funciona e o novo destaque Dúvidas)"
    ],
    "pendente": [
-    "Hoje ~19h: Reel do Dia 1 (institucional v1, nunca publicado)",
-    "Amanhã 3/11: estático ~12h e Reel ~19h do Dia 2",
-    "Amanhã ~9h: mandar ao Darth as peças dos dias 3 e 4 para aprovar",
-    "Fixar o Reel institucional no topo do perfil pelo app do celular (pela web não dá)",
+    "Darth decidir o caminho da @nexorbrain, desativada pelo Instagram em 3/11 por vínculo com a @nexormotorsimports (no app só aparece Log out)",
+    "Mandar ao Darth as peças dos dias 3 e 4 para aprovar (sem publicar)",
     "Darth escolher quais estáticos e vídeos vão para anúncio",
     "Ajustes da landing (bloqueiam os anúncios)",
-    "Trocar o nome do perfil para “Nexor, IA que vende no WhatsApp”"
+    "Quando a conta voltar: fixar o Reel institucional e trocar o nome do perfil"
    ],
    "link": {
     "t": "Plano de lançamento",
@@ -58,6 +59,8 @@
    "papel": "Acompanhamento do dev Gabriel",
    "status": "resposta",
    "entregas": [
+    "3/11 8h02: Gabriel confirmou o QR Code (respondeu “Sim” às 3h50) e às 5h50 mandou o convite de acesso ao painel do Nexor OS; ainda não falou do 360dialog",
+    "2/11 21h39: todas as checagens do dia rodaram, a última às 20h05",
     "14h07: Gabriel disse (12h07) que está fazendo a conexão por QR Code e trocando o código; parou de olhar o chamado do 360dialog",
     "14h09: mensagem de texto ao Gabriel pedindo que avise quando o QR Code estiver pronto (Darth será avisado por texto)",
     "~12h de 2/11: áudio educado ao Gabriel cobrando QR Code, IA da Nexor e 360dialog (entregue no WhatsApp)",
@@ -68,9 +71,10 @@
     "Gabriel conversou cedo com o Rodrigo só sobre as taxas do Asaas/split (1,89% a 3,99%)"
    ],
    "pendente": [
-    "Darth decidir: só QR Code (o não oficial pode banir o número; o oficial depende da Meta aprovar o Tech Provider) ou manter o 360dialog em paralelo. Sugestão do bot: não oficial só para poucos pilotos + 360 em paralelo",
-    "Gabriel ainda não plugou a IA da Nexor (prometida para a manhã de 2/11)",
-    "Gabriel ainda não comentou o PDF da landing nem a stack (base do projeto)"
+    "Darth testar a conexão por QR Code e abrir o convite do painel do Nexor OS que o Gabriel mandou",
+    "Darth decidir se mantém o 360dialog em paralelo (o não oficial pode banir o número)",
+    "Gabriel responder sobre o 360dialog",
+    "Gabriel ainda não plugou a IA da Nexor nem comentou o PDF da landing e a stack"
    ]
   },
   {
@@ -80,7 +84,8 @@
    "papel": "Rotina e tarefas do Lorenzo (17 anos)",
    "status": "trabalhando",
    "entregas": [
-    "18h31: Painel do Lorenzo atualizado com o dia 2/11",
+    "2/11 18h56: áudio pedindo o relato da tarde enviado ao Lorenzo no WhatsApp (ainda sem resposta)",
+    "2/11 18h35: os dois painéis atualizados",
     "~16h55: Lorenzo disse que estava fazendo a tarefa do dia (conhecer a Nexor) e perguntou como a Nexa escala decisões",
     "~15h57: Lorenzo reagiu ao vídeo e perguntou se o Rodrigo posta sem falar com o marketing (repassado ao Rodrigo)",
     "Áudios das 16h e 17h30 não saíram (rotinas pausadas); WhatsApp ficou desconectado de ~17h30 a 17h55",
@@ -226,7 +231,8 @@
   }
  ],
  "DECISOES": [
-  "Gabriel: seguir só com QR Code (o não oficial pode banir o número) ou manter o 360dialog em paralelo até a Meta aprovar?",
+  "Instagram desativou a @nexorbrain em 3/11 por vínculo com a @nexormotorsimports: tentar a Central de Contas, o suporte da Meta e o formulário de recurso, ou criar uma conta nova?",
+  "Gabriel: QR Code confirmado em 3/11; testar a conexão, abrir o convite do painel do Nexor OS e decidir se mantém o 360dialog em paralelo",
   "Postiz: a cobrança de US$29 foi recusada em 1/11; atualizar o cartão antes do fim do teste em 8/11",
   "Financeiro: os pendentes do Cash App (US$29,87 e US$1,03) são do Postiz?",
   "Financeiro: confirmar Grok Ultra US$260/mês e o dia da renovação",
@@ -236,7 +242,6 @@
   "Consultor: qual é hoje o maior desafio da Nexor?",
   "Assessor Dev: por onde começar (repositório, código ou fluxo)?",
   "Suporte: por qual canal chegam os chamados da VS Jóias?",
-  "Fixar o Reel institucional no topo do @nexorbrain pelo celular",
   "Apagar do chat do bot VS Jóias a senha do Facebook da Valéria e a chave do Postiz",
   "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
   "VS Jóias: aprovar criativos, orçamento e forma de pagamento na Nexor Ads",
@@ -244,10 +249,10 @@
   "Crono Jóias: fazer o login no 360dialog e no Facebook da loja",
   "Aprovar os ajustes da landing page",
   "Confirmar quais são os 4 agentes do plano",
-  "Alinhar preço com o CTO (arquivo diz R$ 1.999; correto R$ 1.499)",
-  "Trocar o nome do perfil no Instagram"
+  "Alinhar preço com o CTO (arquivo diz R$ 1.999; correto R$ 1.499)"
  ],
  "DECISOES_BOT": [
+  "mkt",
   "dev",
   "geral",
   "fin",
@@ -258,7 +263,6 @@
   "cons",
   "adev",
   "sup",
-  "mkt",
   "vs",
   "mkt",
   "vs",
@@ -266,29 +270,20 @@
   "cfg",
   "dev",
   "geral",
-  "geral",
-  "mkt"
+  "geral"
  ],
  "TICKER": [
-  "LOR ▸ Painel do Lorenzo atualizado às 18h31",
-  "MKT ▸ post do prédio no ar no feed do @nexorbrain",
-  "LOR ▸ áudios das 16h e 17h30 não saíram (rotinas pausadas)",
-  "MKT ▸ Reel do Dia 1 previsto para ~19h",
-  "NEXA ▸ NEXOR Core agora sabe tudo do negócio (publicado ~16h)",
-  "NEXA ▸ calendário de marketing ao vivo no NEXOR Core em preparo",
-  "LOR ▸ resposta das 15h10 enviada",
-  "NEXA ▸ Secretária agora se chama Nexa",
-  "DEV ▸ Gabriel trocando para QR Code; Darth decide o caminho",
-  "LOR ▸ áudio das 13h30 enviado",
+  "MKT ▸ @nexorbrain desativada pelo Instagram em 3/11; publicações pausadas",
+  "DEV ▸ Gabriel confirmou o QR Code e mandou o convite do painel",
+  "MKT ▸ Reel do Dia 1 no ar às 19h57",
+  "LOR ▸ áudio das 18h56 pedindo o relato enviado",
+  "NEXA ▸ regra: @nexorbrain só com Nexa e Marketing",
+  "LOR ▸ painéis do Lorenzo atualizados às 18h35",
   "MKT ▸ calendário 2–11/11 aprovado (20 posts)",
-  "MKT ▸ estático do Dia 1 no ar às 12h06",
   "FIN ▸ US$319,90 aguardando confirmação",
-  "FIN ▸ Postiz: cobrança de US$29 recusada",
-  "LOR ▸ mensagens diárias liberadas pelo Rodrigo",
   "CONS ▸ panorama de mercado em andamento",
   "COM ▸ 1ª lista de prospecção em montagem",
   "CFG ▸ Crono parada no WhatsApp",
-  "SEC ▸ botão atualizar ligado via GitHub",
   "SEC ▸ Prédio às 9h, 14h e 19h"
  ],
  "ARQ": [
@@ -321,44 +316,49 @@
    "u": "https://instagram.com/nexorbrain"
   }
  ],
- "RESUMO_ID": "2026-11-02",
+ "RESUMO_ID": "2026-11-03",
  "LORENZO_LAST_UPDATE": "2026-10-31T22:43",
  "RESUMO": {
-  "data": "Segunda, 2 de novembro de 2026",
+  "data": "Terça, 3 de novembro de 2026",
   "bots": [
    {
     "b": "Nexa",
-    "t": "Passou a se chamar Nexa. Ligou o botão atualizar do app via GitHub. Publicou o NEXOR Core com tudo do negócio por volta das 16h. Mandou ao Lorenzo o áudio das 13h30 e a resposta das 15h10."
+    "t": "Voltou o Instagram do navegador para a @nexorbrain às 19h53. Registrou a regra: @nexorbrain só com Nexa e Marketing, @nexormotorsimports só com os bots da Nexor Motors. Mandou ao Lorenzo o áudio das 18h56 pedindo o relato. Às 00h21 pediu ao Marketing para pausar a @nexorbrain e passou ao Darth os caminhos de recurso."
    },
    {
     "b": "Nexor Marketing",
-    "t": "Darth aprovou o calendário de 2 a 11/11 (20 posts). Estático do Dia 1 no ar às 12h06. Post do feed do prédio publicado no @nexorbrain. Reel do Dia 1 previsto para ~19h."
+    "t": "Reel do Dia 1 publicado no @nexorbrain às 19h57. O Instagram desativou a @nexorbrain em 3/11 por vínculo com a @nexormotorsimports. Publicações pausadas; os posts do Dia 2 não vão sair. A rotina das 9h só prepara os criativos dos dias 3 e 4."
    },
    {
     "b": "Nexor Devs – Gabriel",
-    "t": "Áudio de cobrança ao Gabriel por volta das 12h. Gabriel disse que está fazendo a conexão por QR Code e parou de olhar o 360dialog. Darth decide se segue só com QR Code ou mantém o 360dialog em paralelo."
+    "t": "Gabriel confirmou o QR Code às 3h50. Às 5h50 mandou o convite de acesso ao painel do Nexor OS. Ainda não falou do 360dialog."
    },
    {
     "b": "Lorenzo – Acompanhamento",
-    "t": "Áudio das 13h30 enviado. Lorenzo disse por volta das 16h55 que estava fazendo a tarefa conhecer a Nexor. Áudios das 16h e 17h30 não saíram. Painel do Lorenzo atualizado às 18h31."
+    "t": "Painéis atualizados às 18h35. Áudio pedindo o relato da tarde enviado às 18h56. Lorenzo ainda não respondeu."
    },
    {
     "b": "Financeiro",
-    "t": "Montou o Painel Financeiro da Nexor. Levantou US$319,90, tudo aguardando confirmação do Darth. Achou a cobrança de US$29 do Postiz recusada em 1/11."
+    "t": "Sem novidades desde ontem. US$319,90 seguem aguardando a confirmação do Darth."
+   },
+   {
+    "b": "Darth Lab",
+    "t": "Pesquisou 10 ideias novas de negócio quase todo automatizado, sem vídeo. Recomenda começar pelo ensaio fotográfico com IA e pela marca de camisetas com estampas por IA. Agora responde só por texto."
    },
    {
     "b": "Novos bots",
-    "t": "Consultor Estratégico começou o panorama de mercado. Assessor Dev, Suporte, Comercial e Jurídico criados e prontos. Comercial monta a 1ª lista de prospecção."
+    "t": "Consultor, Jurídico, Suporte e Comercial sem novidades desde ontem."
    },
    {
     "b": "Nexor Configurador de Lojas",
-    "t": "Lembrete das 10h06 enviado. A Crono segue parada no login do 360dialog e do Facebook da loja."
+    "t": "Auditoria das 21h30 sem falhas. A Crono segue parada no login do 360dialog e do Facebook da loja."
    }
   ],
   "travado": [
-   "Gabriel ainda não plugou a IA da Nexor nem comentou o PDF da landing e a stack",
+   "@nexorbrain desativada pelo Instagram; no app só aparece Log out",
    "Crono Jóias parada no login do 360dialog e do Facebook da loja",
-   "Lorenzo sem relatório de horas de 2/11; áudios das 16h e 17h30 não saíram"
+   "Lorenzo ainda não mandou o relato de 2/11",
+   "Gabriel ainda não falou do 360dialog"
   ]
  },
  "ROTINAS": [
@@ -368,7 +368,7 @@
   "Atualização na hora pelo botão do app (GitHub → Nexa)",
   "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
   "Gabriel no WhatsApp · a cada 2 horas, 8h–22h",
-  "Instagram Nexor · estático ~12h e Reel ~19h (calendário 2–11/11)",
+  "Instagram Nexor · publicações pausadas (@nexorbrain desativada em 3/11)",
   "Lorenzo · áudios diários sem pedir ok; painel seg–sex ~18h",
   "Lorenzo no WhatsApp · a cada 10 min, seg–sex 13h–17h50",
   "Postiz · lembrete do fim do teste em 7/11 às 10h"
@@ -475,7 +475,7 @@
    {
     "f": "Agora",
     "t": [
-     "Concluir a tarefa de seg 2/11: conhecer a Nexor (em andamento, conclusão não confirmada)",
+     "Concluir a tarefa conhecer a Nexor (em andamento, conclusão não confirmada)",
      "Concluir as 8 aulas da Universidade Nexor (aula 1 feita em 1/11, tudo certo)",
      "As 2 provas abrem sozinhas quando ele concluir as 8 aulas",
      "Mandar print ao terminar cada aula e as provas (o progresso fica salvo só no celular dele)",
@@ -503,7 +503,7 @@
    },
    {
     "d": "02/nov/2026",
-    "t": "Rodrigo liberou (10h37) as mensagens diárias sem precisar perguntar. Áudio das 13h30 enviado com o link nexorbrain.com. Lorenzo disse às 14h03 que estava almoçando. Por volta das 16h55 disse que estava fazendo a tarefa (conhecer a Nexor). Áudios das 16h e 17h30 não saíram e o WhatsApp caiu de ~17h30 a 17h55. Sem relatório de horas; nenhum cliente atendido."
+    "t": "Rodrigo liberou (10h37) as mensagens diárias sem precisar perguntar. Áudio das 13h30 enviado com o link nexorbrain.com. Lorenzo disse às 14h03 que estava almoçando. Por volta das 16h55 disse que estava fazendo a tarefa (conhecer a Nexor). Áudios das 16h e 17h30 não saíram e o WhatsApp caiu de ~17h30 a 17h55. Sem relatório de horas; nenhum cliente atendido. Às 18h56 recebeu áudio pedindo o relato da tarde; ainda sem resposta."
    }
   ]
  },
@@ -890,7 +890,7 @@
  "MKT": {
   "instagram": "@nexorbrain",
   "site": "nexorbrain.com",
-  "atualizado_em": "02/11 19:05",
+  "atualizado_em": "03/11 09:10",
   "fonte": "calendário do Nexor Marketing + registro de publicações",
   "proximas": [
    {
@@ -975,17 +975,18 @@
     "tema": "Cada andar da sua empresa, movido por um cérebro",
     "link": "https://www.instagram.com/nexorbrain/p/DfPz5xsp35_/",
     "status": "publicado"
-   }
-  ],
-  "vencidas_sem_confirmacao": [
+   },
    {
     "data": "02/11 19h",
     "formato": "Reel",
     "tema": "Apresentação: o cérebro central da Nexor",
-    "status": "horário passou, sem registro de publicação"
+    "link": "https://www.instagram.com/nexorbrain/reel/DfQbdJgJXS1/",
+    "status": "publicado"
    }
   ],
-  "obs": "Quem publica é o bot Nexor Marketing, direto no Instagram. 'planejado' = previsto no calendário."
+  "vencidas_sem_confirmacao": [],
+  "obs": "Quem publica é o bot Nexor Marketing, direto no Instagram. 'planejado' = previsto no calendário.",
+  "aviso": "Publicações pausadas desde 3/11 00h21: o Instagram desativou a @nexorbrain por vínculo com a @nexormotorsimports. Aguardando decisão do Darth sobre o recurso."
  },
  "motors_agenda": {
   "atualizado_em": "2026-11-02T17:20:17-03:00",

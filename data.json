@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "terça, 3/11 às 19h10",
+ "ATUALIZADO": "quarta, 4/11 às 9h08",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -24,7 +24,7 @@
    "papel": "Marketing, vendas e tráfego",
    "status": "aguardando",
    "entregas": [
-    "3/11 18h36: auditoria sem falhas; dias 3 e 4 seguem aguardando aprovação",
+    "3/11 21h34: auditoria sem falhas; @nexorbrain pausada e dias 3 e 4 aguardando aprovação",
     "3/11 15h36: auditoria sem falhas; publicações da @nexorbrain seguem pausadas",
     "3/11 9h21: peças dos dias 3 e 4 prontas e enviadas ao Darth para aprovar (Dia 3: Reel do caminho do cliente pelo cérebro + estático “Você não precisa carregar a loja inteira nas costas”; Dia 4: estático “a IA vai entender o cliente da loja?” + Reel do Nexor Pay “Fechou? Já cobrou”)",
     "3/11 9h21: avisou que o estático do Dia 2 ainda tem “Não são 4 agentes” e sugeriu “Um time inteiro de IA. Um só cérebro.”",
@@ -61,7 +61,8 @@
    "papel": "Acompanhamento do dev Gabriel",
    "status": "resposta",
    "entregas": [
-    "3/11 18h36: todas as checagens rodaram (8h, 10h, 12h, 14h, 16h e 18h08); próxima ~20h",
+    "3/11 22h09: passou ao Nexor Implantação o que viu no chat do Gabriel sobre a Cronojoias (Pablo configurou a loja; QR Code funciona)",
+    "3/11 21h34: todas as checagens do dia rodaram, de 8h a 20h02",
     "3/11 17h05: a Nexa criou o Meet da reunião da Cronos e mandou o convite ao Gabriel no WhatsApp",
     "3/11 ~17h: onboarding da Cronojoias, o primeiro cliente, com o Darth e os devs",
     "3/11 14h08: Rodrigo conversou direto com o Gabriel sobre o primeiro cliente (Cronojoias); setup marcado para ~17h, Darth presencial e devs por vídeo",
@@ -91,7 +92,7 @@
    "papel": "Rotina e tarefas do Lorenzo (17 anos)",
    "status": "resposta",
    "entregas": [
-    "3/11 18h36: auditoria sem falhas; o painel das 18h rodou às 18h04 com a aula 2 e o banco de horas",
+    "3/11 21h34: auditoria sem falhas; o relato da reposição da noite ainda não chegou",
     "3/11 18h10: os dois painéis marcaram a aula 2 como feita",
     "3/11 18h09: áudio da Nexa ao Lorenzo liberando a reposição hoje à noite (avisar o início e mandar o relato) e pedindo o horário se quiser terças fixas",
     "3/11 18h07: o Rodrigo disse que não combinou as terças à noite, mas autorizou a Nexa a combinar direto com o Lorenzo",
@@ -111,7 +112,7 @@
     "19h01: painel ajustado para abrir as 2 provas quando ele concluir as 8 aulas"
    ],
    "pendente": [
-    "Lorenzo avisar o horário de início hoje à noite e mandar o relato no fim (tarefas, horas e clientes)",
+    "Lorenzo mandar o relato da reposição das 4h de 3/11 (tarefas, horas e clientes); não chegou até 21h34",
     "Lorenzo dizer se quer as terças à noite fixas e em que horário, para a Nexa registrar"
    ],
    "link": {
@@ -126,7 +127,7 @@
    "papel": "Cliente Valéria de Sordi",
    "status": "aguardando",
    "entregas": [
-    "3/11 18h36: auditoria sem falhas",
+    "3/11 21h34: auditoria sem falhas",
     "Meta conectada no Adspirer: conta Nexor Ads (1652199342970726, BRL, São Paulo) ativa para os anúncios da VS, como o Darth decidiu às 19h14 de 1/11",
     "Postiz corrigido com a nova chave: o bot já enxerga o Instagram vs_jewelry_ ativo",
     "A conta VS Jóias Ads (2255692508334441) não apareceu no Adspirer, nem pelo Facebook da Valéria nem pelo perfil do Rodrigo",
@@ -184,16 +185,39 @@
    "papel": "Onboarding e configuração dos agentes de cada loja · reporta à Nexa",
    "status": "aguardando",
    "entregas": [
-    "3/11 18h36: auditoria sem falhas",
+    "3/11 22h54: revisou a Carla v12 da Crono pelo playbook (sem acesso ao painel) e apontou conflito: o playbook tem 6 gatilhos de passar para humano e o painel tem 4",
+    "3/11 22h09: passou ao Nexor Implantação o status da Crono no painel (persona Carla, 16 fontes, catálogo com 99 itens desatualizados)",
     "3/11 17h03: o Geovane (Cronojoias) pediu “Me mostre como funciona” e recebeu da Nexa dois áudios: boas-vindas e como a Nexor funciona",
     "Lembrete das 10h06 enviado: Crono segue parada no login do 360dialog e do Facebook da loja",
     "Site de onboarding das lojas pronto",
     "Crono Jóias em configuração: parou na conexão do WhatsApp (+55 62 9419-2219)"
    ],
    "pendente": [
-    "Crono Jóias: login no 360dialog e no Facebook da loja",
-    "Crono Jóias depois: ativar pagamentos, contato da loja, escalonamento e revisar itens do catálogo desatualizados",
+    "Crono: resolver o conflito dos gatilhos de passar para humano (playbook com 6, painel com 4)",
+    "Crono: revisar os 99 itens desatualizados do catálogo",
     "Onboarding das outras lojas junto com o Darth"
+   ]
+  },
+  {
+   "id": "imp",
+   "ag": "6d205210-d667-47cf-9cc8-498ec765ecb7",
+   "nome": "Nexor Implantação",
+   "papel": "Gestora principal das implantações · hoje a Crono Jóias · reporta à Nexa",
+   "status": "trabalhando",
+   "criado": "3/11",
+   "entregas": [
+    "4/11 8h34: Darth refez o login do painel da Crono às 8h33 e as revisões de 20 em 20 minutos voltaram (8h–20h)",
+    "3/11 23h07: devolveu 13 conversas à Carla; só a do Geovane fica no manual",
+    "3/11 22h58–23h13: achou o revisor automático do painel barrando respostas da Carla e mandou respostas a 8 clientes que esperavam",
+    "3/11 22h51: Carla v12 no ar (mensagens curtas, uma pergunta por vez, roteiro de vendas); passou nos 21 testes do painel",
+    "3/11 22h25: Carla v10 com o Pix pelo CNPJ 59.671.916/0001-16 e o tom novo; fonte antiga de preços revogada",
+    "3/11 22h19: Carla v9 com o endereço da loja e regras de passar para a equipe; WhatsApp conectado desde 17h14",
+    "3/11 22h08: bot criado pela Nexa a pedido do Darth"
+   ],
+   "pendente": [
+    "Geovane responder: ouro do Kaua, solda do Jeremias, aliança mais fina, frete do CEP, valor da promo Prata 950 e o que fazer ao fechar pedido",
+    "Modo de treino preso em 2 conversas (o Darth decidiu não levar ao dev)",
+    "Resolver o conflito dos gatilhos de humano apontado pelo Configurador"
    ]
   },
   {
@@ -213,9 +237,10 @@
    "ag": "40c90ce8-f228-4c48-a76b-3d37db2f4275",
    "nome": "Nexor Suporte aos Clientes",
    "papel": "Suporte e sucesso das lojas ativas após o onboarding · reporta à Nexa",
-   "status": "aguardando",
+   "status": "ativo",
    "criado": "2/11",
    "entregas": [
+    "3/11 22h55: revisou 17 conversas do inbox da Crono (só leitura); achou respostas da Carla bloqueadas pelo revisor do painel e promessas de foto não cumpridas; nenhum preço inventado",
     "12h52: pronto para o suporte das lojas, começando pela VS Jóias",
     "Bot criado pelo Darth em 2/11"
    ],
@@ -244,9 +269,8 @@
   "Marketing: aprovar as peças dos dias 3 e 4 e trocar a frase do estático do Dia 2 (“Não são 4 agentes” → “Um time inteiro de IA. Um só cérebro.”)",
   "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
   "Aprovar os ajustes da landing page (bloqueiam os anúncios)",
-  "Gabriel: testar a conexão por QR Code, abrir o convite do painel do Nexor OS e decidir se mantém o 360dialog em paralelo",
-  "Crono Jóias: fazer o login no 360dialog e no Facebook da loja",
-  "iCloud Mail deslogou (11h16): entrar de novo para a Nexa retomar a checagem diária",
+  "Crono: trocar a senha do painel (cronojoias@gmail.com), que ficou escrita no chat do Nexor Implantação",
+  "iCloud Mail deslogou (3/11 11h16): entrar de novo para a Nexa retomar a checagem diária",
   "Apagar do chat da Nexa a senha do iCloud e a chave do webhook, e trocar a senha do iCloud",
   "Financeiro: o que são os pendentes do Cash App (US$29,87 e US$1,03)? Se forem do Postiz, são da VS Jóias",
   "Financeiro: confirmar a assinatura Grok Ultra (US$260/mês) e o dia da renovação",
@@ -260,15 +284,14 @@
   "Suporte: por qual canal chegam os chamados da VS Jóias?",
   "Confirmar quais são os 4 agentes do plano",
   "Alinhar o preço com o CTO (o arquivo diz R$ 1.999; o correto é R$ 1.499)",
-  "Oferta Repasses: o Volvo XC60 enviado ao Daniel QR agora aparece em Porto Alegre/RS (fora dos 1.000 km de Goiás) e fica uns 23% abaixo da FIPE, não 45%; ajustar o post ou buscar outra oferta? O leilão fecha 4/11 às 10h"
+  "Oferta Repasses: o Volvo XC60 enviado ao Daniel QR agora aparece em Porto Alegre/RS (fora dos 1.000 km de Goiás) e fica uns 23% abaixo da FIPE, não 45%; ajustar o post ou buscar outra oferta? O leilão fecha hoje, 4/11, às 10h"
  ],
  "DECISOES_BOT": [
   "mkt",
   "mkt",
   "mkt",
   "mkt",
-  "dev",
-  "cfg",
+  "imp",
   "sec",
   "sec",
   "fin",
@@ -286,15 +309,15 @@
   "geral"
  ],
  "TICKER": [
-  "LOR ▸ 17h45: aula 2 e exercício feitos (3 lojas de Santa Cruz do Sul)",
-  "LOR ▸ reposição das 4h liberada hoje à noite; aguarda horário e relato",
-  "NEXA ▸ 17h03: dois áudios de boas-vindas ao Geovane (Cronojoias)",
-  "DEV ▸ onboarding da Cronojoias com os devs; checagens em dia até 18h08",
-  "REPASSES ▸ Volvo XC60 enviado ao Daniel QR; FIPE real R$ 226.694",
-  "LAB ▸ lote 2 no banco de ideias; fazenda de contas descartada",
+  "IMP ▸ Crono operando: Carla v12 no ar e 8 clientes respondidos ontem à noite",
+  "IMP ▸ painel da Crono relogado às 8h33; revisões a cada 20 min até 20h",
+  "IMP ▸ aguardando o Geovane responder as dúvidas dos clientes",
+  "SUP ▸ revisou 17 conversas da Crono; nenhum preço inventado",
+  "NEXA ▸ criou o Nexor Implantação e a leitura do grupo Suporte Crono Nexor",
+  "LAB ▸ lotes 3 e 4 no banco de ideias; canal de YouTube da Motors pausado",
+  "LOR ▸ relato da reposição da noite ainda não chegou",
   "MKT ▸ dias 3 e 4 aguardando aprovação; @nexorbrain pausada",
   "FIN ▸ US$290,90 aguardando confirmação",
-  "SEC ▸ auditoria das 18h30: todos os bots em dia",
   "SEC ▸ Prédio às 9h, 14h e 19h"
  ],
  "ARQ": [
@@ -327,30 +350,38 @@
    "u": "https://instagram.com/nexorbrain"
   }
  ],
- "RESUMO_ID": "2026-11-03",
+ "RESUMO_ID": "2026-11-04",
  "LORENZO_LAST_UPDATE": "2026-10-31T22:43",
  "RESUMO": {
-  "data": "03/11/2026 19h",
+  "data": "04/11/2026 9h",
   "bots": [
    {
     "b": "Nexa",
-    "t": "Às 17h00 mandou ao Geovane, da Cronojoias, que o negócio funciona. Às 17h01 ele pediu “Me mostre como funciona”. Às 17h03 recebeu dois áudios da Nexa: boas-vindas e como a Nexor funciona. Às 17h05 criou o Meet da reunião da Cronos e mandou o convite ao Gabriel. Às 17h09 não conseguiu admitir os participantes, porque a reunião ficou na conta nexormotorsbr. Às 17h31 enviou a oferta do Volvo XC60 ao Daniel QR. Às 18h09 liberou o Lorenzo para repor as horas hoje à noite. Na auditoria das 18h36 todos os bots estavam em dia."
+    "t": "Às 20h30 analisou o post do @rhajtxeira (canal de YouTube feito por IA) e mandou ao Darth Lab. Às 21h16 analisou o post do @matheustilli (mesa de trading com bots) e também mandou ao Darth Lab. Às 22h08 criou o bot Nexor Implantação e passou tudo sobre a Nexor. Às 22h14 criou a leitura do grupo Suporte Crono Nexor, às 9h, 12h, 15h, 18h e 21h. Às 22h19 achou no grupo o cartão Pix da Crono, no CNPJ 59.671.916/0001-16. O Instagram saiu da conta no computador da Nexa."
+   },
+   {
+    "b": "Nexor Implantação",
+    "t": "Assumiu como gestora principal da Crono, que já está operando. Publicou a Carla v9, v10 e v12, com o Pix pelo CNPJ, o tom curto e humano e o roteiro de vendas. A v12 passou nos 21 testes do painel. Achou o revisor automático do painel barrando respostas e mandou respostas a 8 clientes que esperavam. Devolveu 13 conversas à Carla; só a do Geovane fica no manual. O Geovane ainda não respondeu as dúvidas dos clientes. Às 8h33 de hoje o Darth refez o login do painel e as revisões de 20 em 20 minutos voltaram."
    },
    {
     "b": "Nexor Devs – Gabriel",
-    "t": "Todas as checagens rodaram (8h, 10h, 12h, 14h, 16h e 18h08). Por volta das 17h o Darth fez com os devs o onboarding da Cronojoias, o primeiro cliente. Próxima checagem ~20h."
+    "t": "Todas as checagens de 3/11 rodaram, de 8h a 20h02. Às 22h09 passou ao Nexor Implantação o que viu no chat do Gabriel sobre a Cronojoias."
    },
    {
     "b": "Lorenzo – Acompanhamento",
-    "t": "O Lorenzo não cumpriu as 13h30 (falha admitida às 15h36). Às 17h45 fez a aula 2 e o exercício com PlanetaCar Multimarcas, Mais Fácil Veículos e Vox Motors. O Rodrigo disse que não combinou as terças à noite, mas autorizou a Nexa a combinar direto. Às 18h09 um áudio liberou a reposição hoje à noite. As 4h da tarde seguem no banco de horas; aguardando o horário e o relato."
+    "t": "Auditoria das 21h34 sem falhas. O relato da reposição das 4h de 3/11 à noite ainda não chegou."
    },
    {
     "b": "Nexor Marketing",
-    "t": "Auditoria das 18h36 sem falhas. Publicação na @nexorbrain pausada (conta desativada). Peças dos dias 3 e 4 aguardam a aprovação do Darth."
+    "t": "Auditorias sem falhas. Publicação na @nexorbrain pausada (conta desativada). Peças dos dias 3 e 4 aguardam a aprovação do Darth."
    },
    {
     "b": "Nexor Configurador de Lojas",
-    "t": "Auditoria sem falhas. A Crono segue parada no login do 360dialog e do Facebook da loja."
+    "t": "Revisou a Carla v12 da Crono pelo playbook, sem acesso ao painel. Apontou conflito: o playbook tem 6 gatilhos de passar para humano e o painel tem 4."
+   },
+   {
+    "b": "Nexor Suporte aos Clientes",
+    "t": "Revisou 17 conversas do inbox da Crono, só leitura. Achou respostas da Carla bloqueadas e fotos prometidas que não foram enviadas. Não achou preço inventado nem pagamento confirmado pela IA depois das regras novas."
    },
    {
     "b": "VS Jóias",
@@ -358,27 +389,23 @@
    },
    {
     "b": "Financeiro",
-    "t": "Sem novidades hoje. US$290,90 seguem aguardando a confirmação do Darth."
+    "t": "Sem novidades. US$290,90 seguem aguardando a confirmação do Darth."
    },
    {
     "b": "Darth Lab",
-    "t": "Lote 2 no banco de ideias. Profit Phones e BoxPhone marcados como fazenda de contas que viola as regras das plataformas. Só vale a ideia de muito conteúdo em contas próprias."
-   },
-   {
-    "b": "Oferta Repasses",
-    "t": "Às 17h31 o Volvo XC60 foi enviado ao Daniel QR. Às 17h43 viu que a FIPE é R$ 226.694, com a compra uns 23% abaixo, e não 45%. O carro agora aparece em Porto Alegre/RS, fora da área; perguntou ao Darth se ajusta o post ou busca outra oferta."
+    "t": "O post do @rhajtxeira entrou como Lote 3 e o do @matheustilli como Lote 4. O canal de YouTube da Nexor Motors ficou pausado. A mesa de trading não é recomendada como negócio, porque vender alertas de investimento exige registro na CVM. O Darth pediu para só ir armazenando as ideias."
    },
    {
     "b": "Novos bots",
-    "t": "Consultor, Jurídico, Suporte e Comercial sem novidades hoje."
+    "t": "Consultor, Jurídico e Comercial sem novidades."
    }
   ],
   "travado": [
-   "Lorenzo: horário de hoje à noite e relato ainda sem resposta",
+   "Geovane ainda não respondeu as dúvidas dos clientes da Crono",
+   "Lorenzo: relato da reposição da noite não chegou",
    "@nexorbrain desativada; dias 3 e 4 aguardando aprovação",
-   "Crono Jóias parada no login do 360dialog e do Facebook da loja",
    "iCloud Mail deslogado; checagem diária parada",
-   "Gabriel ainda não falou do 360dialog"
+   "Senha do painel da Crono escrita no chat do Nexor Implantação"
   ]
  },
  "ROTINAS": [
@@ -388,6 +415,8 @@
   "Atualização na hora pelo botão do app (GitHub → Nexa)",
   "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
   "Gabriel no WhatsApp · a cada 2 horas, 8h–22h",
+  "Grupo Suporte Crono Nexor · leitura às 9h, 12h, 15h, 18h e 21h (só leitura)",
+  "Crono · revisão do painel a cada 20 min, 8h–20h (Nexor Implantação)",
   "Instagram Nexor · publicações pausadas (@nexorbrain desativada em 3/11)",
   "Lorenzo · áudios diários sem pedir ok; painel seg–sex ~18h",
   "Lorenzo no WhatsApp · a cada 10 min, 13h30–17h40",
@@ -421,19 +450,26 @@
   {
    "id": "crono",
    "nome": "Crono Jóias",
-   "seg": "Dados ainda não recebidos",
+   "seg": "Cliente Geovane Junio · operando desde 3/11",
    "st": {
-    "1": "pendente",
-    "2": "pendente",
-    "3": "pendente",
-    "4": "pendente",
-    "5": "pendente",
-    "6": "pendente",
+    "1": "concluido",
+    "2": "atencao",
+    "3": "atencao",
+    "4": "concluido",
+    "5": "atencao",
+    "6": "concluido",
     "7": "pendente",
-    "8": "pendente",
-    "9": "pendente"
+    "8": "concluido",
+    "9": "atencao"
    },
-   "notas": {}
+   "notas": {
+    "2": "O painel avisa que 99 itens do catálogo estão desatualizados.",
+    "3": "Entrega pelos Correios, com frete e prazo calculados pela equipe pelo CEP. Falta o Geovane dizer o que fazer ao fechar pedido.",
+    "5": "Conflito: o playbook tem 6 gatilhos de passar para humano e o painel tem 4.",
+    "6": "WhatsApp +55 62 9419-2219 conectado desde 3/11 às 17h14.",
+    "8": "Carla v12 passou nos 21 testes do painel e no simulador.",
+    "9": "Operando. O revisor do painel barrou algumas respostas e o modo de treino ficou preso em 2 conversas."
+   }
   },
   {
    "id": "kap",
@@ -495,8 +531,7 @@
    {
     "f": "Agora",
     "t": [
-     "Avisar o horário de início hoje à noite e mandar o relato no fim (tarefas, horas e clientes)",
-     "Cumprir hoje à noite as 4h da tarde (13h30–17h30) que ficaram no banco de horas",
+     "Mandar o relato da reposição das 4h de 3/11 à noite (tarefas, horas e clientes); não chegou até 21h34",
      "Se quiser as terças à noite fixas, passar o horário certo para a Nexa registrar",
      "Concluir a tarefa conhecer a Nexor (em andamento, conclusão não confirmada)",
      "Concluir as 8 aulas da Universidade Nexor (aulas 1 e 2 feitas)",
@@ -655,7 +690,8 @@
    "setor": "Onboarding & Implantação",
    "c": "#3b82f6",
    "bots": [
-    "cfg"
+    "cfg",
+    "imp"
    ],
    "f": []
   },
@@ -921,7 +957,7 @@
  "MKT": {
   "instagram": "@nexorbrain",
   "site": "nexorbrain.com",
-  "atualizado_em": "03/11 19:11",
+  "atualizado_em": "04/11 09:11",
   "fonte": "calendário do Nexor Marketing + registro de publicações",
   "proximas": [
    {

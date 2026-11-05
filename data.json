@@ -1,5 +1,5 @@
 {
-  "ATUALIZADO": "quinta, 5/11 às 14h",
+  "ATUALIZADO": "quinta, 5/11 às 14h10",
   "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
   "BOTS": [
     {
@@ -218,11 +218,10 @@
       "status": "aguardando",
       "criado": "3/11",
       "entregas": [
-        "5/11 14h: sem revisão nova depois das 8h40; bloqueios da Carla e falhas de envio seguem; WhatsApp impede avisar o Gabriel",
-        "5/11 8h40: respostas boas da Carla seguem bloqueadas com o texto “Só um instante, vou verificar”: Jonotha (final 5884) ficou sem resposta de 23h20 até 8h32 e Davi Samuel (final 9260) às 8h10",
-        "5/11 8h40: falhas de envio continuam: a mensagem do Félix (final 1602) das 20h03 só chegou às 8h10 e três da Kethlen (final 6846) falharam às 5h44",
-        "5/11 8h40: 20 clientes esperando a equipe; Luis Guilherme desde 19h42 e Loren desde 17h55 de ontem",
-        "5/11 8h40: a Gabi pediu banho de ouro às 7h32 e a Carla passou para a equipe sem o alerta urgente ao Geovane",
+        "5/11 11h22: pausou a implantação da Crono (revisão a cada 20 min e checagem do Geovane) até 6/11 10h, por ordem do Darth",
+        "5/11 ~9h24: publicou a Carla v42 (confirmação de preço + handoff de lead quente); 21 testes ok",
+        "5/11 manhã: RESPONSE_BLOCKED no Pedro Lucas (9h17); falha de envio Carla→Juliano 10h52 (3ª desde ontem)",
+        "5/11 8h40: respostas boas da Carla bloqueadas; falhas de envio; 20 clientes esperando a equipe",
         "4/11 18h34: o sistema bloqueou uma resposta boa da Carla ao Cisco (final 8474) e mandou o texto automático “Só um instante, vou verificar”; incluído na pendência do Gabriel",
         "4/11 17h57: duas regras novas (preço já passado e chamar a equipe na escolha da medida) não entraram: o Training Studio segue com erro de API",
         "4/11 17h56: a Carla voltou a entregar respostas desde 17h20",
@@ -236,10 +235,11 @@
         "4/11 11h20–11h56: a Carla travou (erro de sistema); o Gabriel corrigiu e ela voltou a responder"
       ],
       "pendente": [
+        "Darth liberar a regra da Carla anti-“vou verificar” (passar para a equipe sem prometer verificar)",
         "Gabriel: corrigir o bloqueio de respostas boas e as falhas de envio (precisa do Darth reconectar o WhatsApp e aprovar o envio)",
+        "Retomar a implantação da Crono em 6/11 às 10h",
         "Training Studio segue com erro de API: aplicar as regras já aprovadas pelo Darth e o alerta de ouro quando voltar",
         "Geovane: confirmar se a Crono faz polimento mecânico e os preços da aliança de 2,5 mm (R$ 280) e da Crono Serrilhada + Navete (R$ 500)",
-        "Reenviar a fila de clientes ao Geovane",
         "Gabriel: a Carla ler as fotos dos clientes e o catálogo público da loja"
       ]
     },
@@ -289,7 +289,8 @@
   ],
   "DECISOES": [
     "Reconectar o WhatsApp Web da Nexa (escanear o QR code): está fora desde 4/11 14h20 e parou Lorenzo, Gabriel, Controle WF e Suporte Crono",
-    "Crono (urgente): aprovar no chat da Nexa o envio ao Gabriel do bug de respostas bloqueadas e falhas de envio, que continua em 5/11",
+    "Crono: liberar a regra da Carla anti-“vou verificar” (passar para a equipe sem prometer verificar)",
+    "Crono: aprovar o envio ao Gabriel dos bugs (RESPONSE_BLOCKED, falhas de envio, Training Studio) quando o WhatsApp voltar",
     "@nexorbrain desativada e sem e-mail de recurso: criar a conta nova da Nexor com e-mail e número novos, sem vínculo com a Motors?",
     "Marketing: aprovar as peças dos dias 3 e 4 e trocar a frase do estático do Dia 2 (“Não são 4 agentes” → “Um time inteiro de IA. Um só cérebro.”)",
     "Escolher quais criativos da Nexor vão para anúncio (8 estáticos e vídeos)",
@@ -301,18 +302,18 @@
     "Financeiro: confirmar a assinatura Grok Ultra (US$260/mês) e o dia da renovação",
     "Financeiro: valor e data de cobrança da ElevenLabs e do Adspirer",
     "Financeiro: HeyGen, Midjourney e pdfFiller são da Nexor?",
+    "Capital One: confirmar a compra suspeita e o cartão recusado por falta de limite (aberto desde 1/11)",
+    "Clicksign: assinar o documento Time Azos (aberto desde 1/11)",
     "VS Jóias: aprovar criativos, orçamento e forma de pagamento na Nexor Ads",
     "Enviar os dados reais da VS Jóias",
     "Apagar do chat do bot VS Jóias a senha do Facebook da Valéria e a chave do Postiz",
     "Consultor: qual é hoje o maior desafio da Nexor?",
-    "Assessor Dev: por onde começar (repositório, código ou fluxo)?",
-    "Suporte: por qual canal chegam os chamados da VS Jóias?",
-    "Confirmar quais são os 4 agentes do plano",
-    "Alinhar o preço com o CTO (o arquivo diz R$ 1.999; o correto é R$ 1.499)"
+    "Assessor Dev: por onde começar (repositório, código ou fluxo)?"
   ],
   "DECISOES_BOT": [
     "sec",
     "imp",
+    "dev",
     "mkt",
     "mkt",
     "mkt",
@@ -324,20 +325,19 @@
     "fin",
     "fin",
     "fin",
+    "sec",
+    "sec",
     "vs",
     "vs",
     "vs",
     "cons",
-    "adev",
-    "sup",
-    "geral",
-    "geral"
+    "adev"
   ],
   "TICKER": [
     "SEC ▸ WhatsApp Web da Nexa segue no QR desde 4/11 14h20; o Darth precisa escanear",
-    "LOR ▸ mensagem das 13h30 de hoje não saiu; rotina de estudo pausada até reconectar",
-    "IMP ▸ Crono: respostas boas da Carla seguem bloqueadas; falhas de envio em 5/11",
-    "IMP ▸ Training Studio com erro de API; regras aprovadas ainda não aplicadas",
+    "IMP ▸ Crono pausada até 6/11 10h por ordem do Darth; Carla v42 no ar",
+    "IMP ▸ regra anti-“vou verificar” e falhas de envio aguardam o Darth/Gabriel",
+    "LOR ▸ mensagem das 13h30 de hoje não saiu; rotina de estudo pausada",
     "DEV ▸ acompanhamento do Gabriel pausado até o WhatsApp voltar",
     "LOR ▸ relatos de 4/11 e da reposição de terça ainda não lidos",
     "LAB ▸ equipe LanceAtlas pausada por ordem do Darth",
@@ -375,34 +375,34 @@
       "u": "https://instagram.com/nexorbrain"
     }
   ],
-  "RESUMO_ID": "2026-11-05-14h",
+  "RESUMO_ID": "2026-11-05-14h10",
   "LORENZO_LAST_UPDATE": "2026-11-05T14:00",
   "RESUMO": {
-    "data": "05/11/2026 14h",
+    "data": "05/11/2026 14h10",
     "bots": [
       {
         "b": "Nexa",
-        "t": "O WhatsApp Web segue na tela do QR code desde 4/11 às 14h20. Às 13h30 a rotina do Lorenzo foi pausada e a mensagem da tarde não saiu. Os grupos Controle WF e Suporte Crono ficam sem leitura nova. No Controle WF, nenhuma parcela vence perto: Jose em 11/12 e Ramiro em 13/12."
+        "t": "O WhatsApp Web segue no QR desde 4/11 14h20. Às 11h22 o Darth pediu para pausar a Crono até 6/11 10h; o lembrete já está agendado. Às 13h30 a rotina do Lorenzo foi pausada e a mensagem da tarde não saiu. Controle WF e Suporte Crono sem leitura nova."
       },
       {
         "b": "Nexor Implantação",
-        "t": "Sem novidade nova depois das 8h40. A Crono segue com respostas boas da Carla bloqueadas e falhas de envio. O Training Studio continua com erro de API. O Gabriel ainda não recebeu o bug, porque o WhatsApp está fora."
+        "t": "Publicou a Carla v42 de manhã. Depois pausou a implantação da Crono até 6/11 10h, por ordem do Darth. Seguem RESPONSE_BLOCKED, falhas de envio e a regra anti-“vou verificar” sem liberação."
       },
       {
         "b": "Nexor Devs – Gabriel",
-        "t": "Acompanhamento pausado desde 4/11 à noite por causa do WhatsApp. O bug crítico da Crono (com os casos Jonotha, Davi Samuel, Félix e Kethlen) está montado, mas ainda não foi enviado ao Gabriel."
+        "t": "Acompanhamento pausado desde 4/11 à noite por causa do WhatsApp. Os bugs da Crono (bloqueios, falhas de envio e Training Studio) estão montados, mas ainda não foram enviados ao Gabriel."
       },
       {
         "b": "Lorenzo – Acompanhamento",
-        "t": "A mensagem das 13h30 de hoje não saiu. Relatos de 4/11 e da reposição de terça ainda não foram lidos. Próximo passo dele: aula 3 na Universidade Nexor."
+        "t": "A mensagem das 13h30 de hoje não saiu. Relatos de 4/11 e da reposição de terça ainda não foram lidos. Próximo passo: aula 3."
       },
       {
         "b": "Nexor Marketing",
-        "t": "Sem novidade desde a auditoria de ontem. A @nexorbrain segue desativada. Dias 3 e 4 e a manchete do Dia 2 aguardam o Darth."
+        "t": "Auditoria das 10h40 ok. A @nexorbrain segue desativada. Dias 3 e 4 e a manchete do Dia 2 aguardam o Darth."
       },
       {
         "b": "Nexor Configurador de Lojas",
-        "t": "Sem novidade. O conflito dos gatilhos de passar para humano da Crono (playbook 6 x painel 4) segue aberto."
+        "t": "Auditoria das 10h40 ok. O conflito dos gatilhos da Crono (playbook 6 x painel 4) segue aberto."
       },
       {
         "b": "Nexor Suporte aos Clientes",
@@ -410,15 +410,15 @@
       },
       {
         "b": "VS Jóias",
-        "t": "Sem novidade. Anúncios pela Nexor Ads; criativos e orçamento ainda dependem do Darth."
+        "t": "Auditoria das 10h40 ok. Criativos e orçamento ainda dependem do Darth."
       },
       {
         "b": "Financeiro",
-        "t": "Sem novidades. US$290,90 seguem aguardando a confirmação do Darth. Postiz continua fora da conta da Nexor."
+        "t": "Sem novidades. US$290,90 seguem aguardando a confirmação do Darth."
       },
       {
         "b": "Darth Lab",
-        "t": "A equipe e as rotinas do LanceAtlas seguem pausadas por ordem do Darth."
+        "t": "LanceAtlas e rotinas seguem pausados por ordem do Darth."
       },
       {
         "b": "Novos bots",
@@ -427,8 +427,8 @@
     ],
     "travado": [
       "WhatsApp Web da Nexa desconectado desde 4/11 14h20: o Darth precisa escanear o QR code",
-      "Crono: respostas boas bloqueadas e falhas de envio; o Gabriel ainda não sabe",
-      "Training Studio da Crono com erro de API",
+      "Crono: implantação pausada até 6/11 10h; v42 no ar com bloqueios e falhas de envio",
+      "Crono: regra anti-“vou verificar” ainda sem liberação do Darth",
       "Lorenzo: mensagem das 13h30 de hoje não enviada; relatos de 4/11 e de terça não lidos",
       "@nexorbrain desativada; dias 3 e 4 aguardando aprovação",
       "iCloud Mail deslogado"
@@ -442,7 +442,7 @@
     "Conferência de lembretes dos bots · 10h30, 15h30, 18h30 e 21h30",
     "Gabriel no WhatsApp · a cada 2 horas, 8h–22h (parada: WhatsApp no QR)",
     "Grupo Suporte Crono Nexor · leitura às 9h, 12h, 15h, 18h e 21h (parada: WhatsApp no QR)",
-    "Crono · revisão do painel a cada 20 min, 8h–20h (Nexor Implantação)",
+    "Crono · revisão do painel a cada 20 min, 8h–20h (pausada até 6/11 10h por ordem do Darth)",
     "Instagram Nexor · publicações pausadas (@nexorbrain desativada em 3/11)",
     "Lorenzo · áudios diários sem pedir ok; painel seg–sex ~18h",
     "Lorenzo no WhatsApp · a cada 10 min, 13h30–17h40 (pausada em 5/11 13h30: WhatsApp no QR)",
@@ -476,7 +476,7 @@
     {
       "id": "crono",
       "nome": "Crono Jóias",
-      "seg": "Cliente Geovane Junio · operando desde 3/11",
+      "seg": "Cliente Geovane Junio · operando; implantação pausada até 6/11 10h",
       "st": {
         "1": "concluido",
         "2": "atencao",
@@ -493,8 +493,8 @@
         "3": "Entrega pelos Correios, com frete e prazo calculados pela equipe pelo CEP. Falta o Geovane dizer o que fazer ao fechar pedido.",
         "5": "Conflito: o playbook tem 6 gatilhos de passar para humano e o painel tem 4.",
         "6": "WhatsApp +55 62 9419-2219 conectado desde 3/11 às 17h14.",
-        "8": "Carla v29 no ar (SDR e Closer) e passou nos 21 testes do painel. O Training Studio segue com erro de API, e as regras aprovadas ainda não entraram.",
-        "9": "Operando com problemas do sistema da Nexor: em 5/11 seguem respostas boas bloqueadas e falhas de envio. O Gabriel ainda não foi avisado porque o WhatsApp da Nexa está no QR."
+        "8": "Carla v42 no ar (confirmação de preço + handoff). O Training Studio segue com erro de API.",
+        "9": "Implantação pausada até 6/11 10h por ordem do Darth. Em 5/11 houve RESPONSE_BLOCKED e falhas de envio; o Gabriel ainda não foi avisado (WhatsApp da Nexa no QR)."
       }
     },
     {

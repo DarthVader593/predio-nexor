@@ -1,5 +1,5 @@
 {
- "ATUALIZADO": "sexta, 6/11 às 19h",
+ "ATUALIZADO": "sexta, 6/11 às 19h50",
  "SEC_ID": "07b5e417-15a0-4aeb-8293-deff30a6b221",
  "BOTS": [
   {
@@ -309,14 +309,14 @@
  "TICKER": [
   "IMP ▸ WA da loja Crono caiu de novo em 6/11; Gabriel pediu reconectar + auto-reconnect",
   "IMP ▸ pausa da Crono até 6/11 10h já venceu; retomada e regra anti-“vou verificar” aguardam o Darth",
+  "SEC ▸ Resumo diário 19h rodou; cobrou Gabriel/Marketing/VS/Configurador/Lorenzo/Implantação",
   "DEV ▸ bugs da Crono montados; falta o Darth aprovar o envio ao Gabriel",
   "LOR ▸ aulas 1 a 4 no oficial; aula 4 relatada ~15h10; sem relato 17h30",
   "SEC ▸ WhatsApp Web da Nexa conectado hoje; grupo Suporte Crono e Controle WF lidos",
   "MKT ▸ @nexorbrain desativada; dias 3 e 4 aguardando aprovação",
   "VS ▸ teste Postiz termina em 7/11; criativos ainda dependem do Darth",
   "FIN ▸ US$290,90 aguardando confirmação",
-  "LAB ▸ equipe LanceAtlas pausada por ordem do Darth",
-  "SEC ▸ Resumo diário 19h no painel"
+  "LAB ▸ equipe LanceAtlas pausada por ordem do Darth"
  ],
  "ARQ": [
   {
@@ -348,14 +348,14 @@
    "u": "https://instagram.com/nexorbrain"
   }
  ],
- "RESUMO_ID": "2026-11-06-19h",
- "LORENZO_LAST_UPDATE": "2026-11-06T19:00",
+ "RESUMO_ID": "2026-11-06-19h50",
+ "LORENZO_LAST_UPDATE": "2026-11-06T19:05",
  "RESUMO": {
-  "data": "06/11/2026 19h",
+  "data": "06/11/2026 19h50",
   "bots": [
    {
     "b": "Nexa",
-    "t": "WhatsApp Web conectado hoje. Grupo Suporte Crono: WA da loja caiu de novo (~7h e ~11h); Gabriel pediu reconectar + auto-reconnect. Controle WF ok. Lorenzo: aula 4 relatada ~15h10; sem relato 17h30. Pausa da Crono até 6/11 10h já venceu."
+    "t": "Resumo diário ~19h05 rodou e cobrou priority (Gabriel, Marketing, VS, Configurador, Lorenzo, Implantação). WhatsApp Web conectado. Grupo Suporte Crono: WA da loja caiu de novo (~7h e ~11h); Gabriel pediu reconectar + auto-reconnect. Controle WF ok. Lorenzo: aula 4 relatada ~15h10; sem relato 17h30. Pausa da Crono até 6/11 10h já venceu."
    },
    {
     "b": "Nexor Implantação",
